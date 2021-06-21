@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cj_assets.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cj Sing Note DOWN0000" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0001" x="498" y="3" width="494" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0002" x="995" y="3" width="506" height="738"/>
+	<SubTexture name="cj Sing Note DOWN0003" x="1504" y="3" width="505" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0004" x="2012" y="3" width="502" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0005" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0006" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0007" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0008" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0009" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0010" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0011" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0012" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0013" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0014" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note DOWN0015" x="3" y="3" width="492" height="738" frameX="0" frameY="0" frameWidth="506" frameHeight="738"/>
+	<SubTexture name="cj Sing Note LEFT0000" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0001" x="2910" y="3" width="392" height="761" frameX="-13" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0002" x="3305" y="3" width="405" height="761"/>
+	<SubTexture name="cj Sing Note LEFT0003" x="3713" y="3" width="404" height="761" frameX="-1" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0004" x="4120" y="3" width="400" height="761" frameX="-5" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0005" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0006" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0007" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0008" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0009" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0010" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0011" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0012" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0013" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0014" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note LEFT0015" x="2517" y="3" width="390" height="761" frameX="-15" frameY="0" frameWidth="405" frameHeight="761"/>
+	<SubTexture name="cj Sing Note RIGHT0000" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0001" x="5032" y="3" width="508" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0002" x="5543" y="3" width="523" height="800"/>
+	<SubTexture name="cj Sing Note RIGHT0003" x="6069" y="3" width="522" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0004" x="6594" y="3" width="518" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0005" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0006" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0007" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0008" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0009" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0010" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0011" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0012" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0013" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0014" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0015" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0016" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0017" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note RIGHT0018" x="4523" y="3" width="506" height="800" frameX="0" frameY="0" frameWidth="523" frameHeight="800"/>
+	<SubTexture name="cj Sing Note UP0000" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0001" x="7477" y="3" width="359" height="779" frameX="0" frameY="-10" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0002" x="3" y="806" width="356" height="789" frameX="0" frameY="0" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0003" x="362" y="806" width="356" height="789" frameX="0" frameY="0" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0004" x="721" y="806" width="357" height="786" frameX="0" frameY="-3" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0005" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0006" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0007" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0008" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0009" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0010" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0011" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0012" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0013" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0014" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0015" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0016" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0017" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0018" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0019" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0020" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0021" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0022" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0023" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0024" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0025" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0026" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0027" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0028" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0029" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0030" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0031" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0032" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0033" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0034" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0035" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0036" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0037" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0038" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0039" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0040" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0041" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0042" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0043" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0044" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0045" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0046" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0047" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0048" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0049" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0050" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0051" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0052" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0053" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0054" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0055" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0056" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0057" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0058" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj Sing Note UP0059" x="7115" y="3" width="359" height="777" frameX="0" frameY="-12" frameWidth="359" frameHeight="789"/>
+	<SubTexture name="cj doubleha0000" x="1081" y="806" width="346" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0001" x="1430" y="806" width="348" height="779" frameX="0" frameY="-10" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0002" x="1781" y="806" width="350" height="789" frameX="0" frameY="0" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0003" x="2134" y="806" width="352" height="789" frameX="0" frameY="0" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0004" x="2489" y="806" width="354" height="786" frameX="0" frameY="-3" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0005" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0006" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0007" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0008" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0009" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0010" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0011" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0012" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0013" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0014" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0015" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0016" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0017" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0018" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0019" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0020" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0021" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0022" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0023" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0024" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0025" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0026" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0027" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0028" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0029" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0030" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0031" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0032" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0033" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0034" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0035" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0036" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0037" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0038" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0039" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0040" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0041" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0042" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0043" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0044" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0045" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0046" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0047" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0048" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0049" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0050" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0051" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0052" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0053" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0054" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0055" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0056" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0057" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0058" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj doubleha0059" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj idle dance0000" x="3204" y="806" width="400" height="757"/>
+	<SubTexture name="cj idle dance0001" x="3607" y="806" width="378" height="757" frameX="-13" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0002" x="3988" y="806" width="366" height="757" frameX="-23" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0003" x="4357" y="806" width="366" height="757" frameX="-23" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0004" x="4726" y="806" width="366" height="757" frameX="-23" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0005" x="5095" y="806" width="366" height="757" frameX="-23" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0006" x="5464" y="806" width="366" height="757" frameX="-23" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0007" x="5833" y="806" width="377" height="757" frameX="-18" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0008" x="6213" y="806" width="390" height="757" frameX="-8" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0009" x="6606" y="806" width="397" height="757" frameX="-3" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0010" x="7006" y="806" width="399" height="757" frameX="-1" frameY="0" frameWidth="400" frameHeight="757"/>
+	<SubTexture name="cj idle dance0011" x="7408" y="806" width="400" height="757"/>
+	<SubTexture name="cj idle dance0012" x="3204" y="806" width="400" height="757"/>
+	<SubTexture name="cj intro0000" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0001" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0002" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0003" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0004" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0005" x="7811" y="806" width="351" height="730" frameX="-561" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0006" x="3" y="1598" width="357" height="731" frameX="-560" frameY="-247" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0007" x="363" y="1598" width="370" height="735" frameX="-559" frameY="-243" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0008" x="736" y="1598" width="383" height="739" frameX="-557" frameY="-239" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0009" x="1122" y="1598" width="386" height="740" frameX="-557" frameY="-238" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0010" x="1511" y="1598" width="381" height="734" frameX="-560" frameY="-244" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0011" x="1895" y="1598" width="387" height="731" frameX="-561" frameY="-247" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0012" x="2285" y="1598" width="423" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0013" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0014" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0015" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0016" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0017" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0018" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0019" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0020" x="2711" y="1598" width="419" height="733" frameX="-560" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0021" x="2711" y="1598" width="419" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0022" x="2711" y="1598" width="419" height="733" frameX="-560" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0023" x="3133" y="1598" width="417" height="734" frameX="-561" frameY="-244" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0024" x="3553" y="1598" width="411" height="735" frameX="-561" frameY="-243" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0025" x="3967" y="1598" width="396" height="736" frameX="-561" frameY="-242" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0026" x="4366" y="1598" width="373" height="738" frameX="-561" frameY="-240" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0027" x="4742" y="1598" width="378" height="739" frameX="-561" frameY="-239" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0028" x="5123" y="1598" width="379" height="740" frameX="-561" frameY="-238" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0029" x="5505" y="1598" width="380" height="741" frameX="-561" frameY="-237" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0030" x="5888" y="1598" width="380" height="740" frameX="-561" frameY="-238" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0031" x="6271" y="1598" width="380" height="740" frameX="-561" frameY="-238" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0032" x="6654" y="1598" width="381" height="738" frameX="-560" frameY="-240" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0033" x="7038" y="1598" width="425" height="733" frameX="-561" frameY="-245" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0034" x="7466" y="1598" width="431" height="730" frameX="-560" frameY="-248" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0035" x="3" y="2342" width="486" height="833" frameX="-560" frameY="-145" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0036" x="492" y="2342" width="480" height="840" frameX="-560" frameY="-138" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0037" x="975" y="2342" width="461" height="859" frameX="-560" frameY="-119" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0038" x="1439" y="2342" width="432" height="882" frameX="-560" frameY="-96" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0039" x="1874" y="2342" width="431" height="900" frameX="-560" frameY="-78" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0040" x="2308" y="2342" width="430" height="928" frameX="-560" frameY="-50" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0041" x="2741" y="2342" width="429" height="940" frameX="-560" frameY="-38" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0042" x="3173" y="2342" width="428" height="947" frameX="-560" frameY="-31" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0043" x="3604" y="2342" width="428" height="963" frameX="-560" frameY="-15" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0044" x="4035" y="2342" width="427" height="975" frameX="-561" frameY="-3" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0045" x="4465" y="2342" width="443" height="978" frameX="-558" frameY="0" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0046" x="4911" y="2342" width="491" height="941" frameX="-550" frameY="-37" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0047" x="5405" y="2342" width="550" height="856" frameX="-483" frameY="-122" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0048" x="5958" y="2342" width="535" height="782" frameX="-481" frameY="-196" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0049" x="6496" y="2342" width="518" height="741" frameX="-511" frameY="-237" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0050" x="7017" y="2342" width="512" height="661" frameX="-537" frameY="-318" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0051" x="7532" y="2342" width="532" height="661" frameX="-537" frameY="-318" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0052" x="3" y="3323" width="551" height="660" frameX="-537" frameY="-319" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0053" x="557" y="3323" width="523" height="661" frameX="-537" frameY="-318" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0054" x="1083" y="3323" width="514" height="658" frameX="-537" frameY="-321" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0055" x="1600" y="3323" width="516" height="658" frameX="-537" frameY="-321" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0056" x="2119" y="3323" width="519" height="658" frameX="-537" frameY="-321" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0057" x="2641" y="3323" width="520" height="658" frameX="-537" frameY="-321" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0058" x="3164" y="3323" width="518" height="658" frameX="-537" frameY="-321" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0059" x="3685" y="3323" width="522" height="657" frameX="-528" frameY="-322" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0060" x="4210" y="3323" width="524" height="656" frameX="-523" frameY="-323" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0061" x="4737" y="3323" width="374" height="730" frameX="-630" frameY="-254" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0062" x="5114" y="3323" width="367" height="743" frameX="-615" frameY="-241" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0063" x="5484" y="3323" width="378" height="756" frameX="-592" frameY="-228" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0064" x="5865" y="3323" width="369" height="737" frameX="-602" frameY="-247" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj intro0065" x="6237" y="3323" width="370" height="740" frameX="-601" frameY="-244" frameWidth="1088" frameHeight="984"/>
+	<SubTexture name="cj singleha0000" x="6610" y="3323" width="345" height="777" frameX="0" frameY="-12" frameWidth="345" frameHeight="789"/>
+	<SubTexture name="cj singleha0001" x="6958" y="3323" width="345" height="779" frameX="0" frameY="-10" frameWidth="345" frameHeight="789"/>
+	<SubTexture name="cj singleha0002" x="7306" y="3323" width="345" height="789"/>
+	<SubTexture name="cj singleha0003" x="7654" y="3323" width="345" height="789"/>
+	<SubTexture name="cj singleha0004" x="3" y="4115" width="345" height="786" frameX="0" frameY="-3" frameWidth="345" frameHeight="789"/>
+	<SubTexture name="cj singleha0005" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0006" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0007" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0008" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0009" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0010" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0011" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0012" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0013" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0014" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0015" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0016" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0017" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0018" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0019" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0020" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0021" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0022" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0023" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0024" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0025" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0026" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0027" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0028" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0029" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0030" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0031" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0032" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0033" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0034" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0035" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0036" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0037" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0038" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0039" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0040" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0041" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0042" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0043" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0044" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0045" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0046" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0047" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0048" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0049" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0050" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0051" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0052" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0053" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0054" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0055" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0056" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0057" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0058" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+	<SubTexture name="cj singleha0059" x="2846" y="806" width="355" height="777" frameX="0" frameY="-12" frameWidth="355" frameHeight="789"/>
+</TextureAtlas>

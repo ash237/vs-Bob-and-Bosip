@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Start_Screen_bosip.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bosiptitle0000" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0001" x="862" y="2" width="881" height="1141" frameX="-23" frameY="-9" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0002" x="1745" y="2" width="893" height="1151" frameX="0" frameY="-4" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0003" x="2640" y="2" width="881" height="1155" frameX="0" frameY="0" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0004" x="2" y="1159" width="877" height="1154" frameX="-1" frameY="0" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0005" x="881" y="1159" width="873" height="1153" frameX="-7" frameY="0" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0006" x="1756" y="1159" width="868" height="1150" frameX="-17" frameY="-1" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0007" x="2626" y="1159" width="863" height="1145" frameX="-30" frameY="-4" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0008" x="2" y="2315" width="860" height="1138" frameX="-40" frameY="-8" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0009" x="864" y="2315" width="859" height="1134" frameX="-45" frameY="-11" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0010" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0011" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0012" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0013" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+	<SubTexture name="bosiptitle0014" x="2" y="2" width="858" height="1132" frameX="-47" frameY="-12" frameWidth="905" frameHeight="1155"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bobsip.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bobsip0000" x="2" y="2" width="271" height="314"/>
+	<SubTexture name="bobsip0001" x="275" y="2" width="271" height="313" frameX="0" frameY="-1" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0002" x="548" y="2" width="271" height="312" frameX="0" frameY="-2" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0003" x="2" y="318" width="271" height="311" frameX="0" frameY="-3" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0004" x="275" y="318" width="270" height="310" frameX="-1" frameY="-4" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0005" x="547" y="318" width="269" height="309" frameX="-1" frameY="-5" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0006" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0007" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0008" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0009" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0010" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0011" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+	<SubTexture name="bobsip0012" x="2" y="631" width="269" height="307" frameX="-1" frameY="-7" frameWidth="271" frameHeight="314"/>
+</TextureAtlas>

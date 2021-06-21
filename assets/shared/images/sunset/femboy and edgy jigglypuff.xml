@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="femboy and edgy jigglypuff.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="femboy0000" x="2" y="2" width="282" height="237" frameX="0" frameY="-1" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0001" x="286" y="2" width="282" height="238"/>
+	<SubTexture name="femboy0002" x="570" y="2" width="282" height="238"/>
+	<SubTexture name="femboy0003" x="2" y="242" width="282" height="238"/>
+	<SubTexture name="femboy0004" x="286" y="242" width="282" height="238"/>
+	<SubTexture name="femboy0005" x="570" y="242" width="281" height="238" frameX="0" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0006" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0007" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0008" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0009" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0010" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0011" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+	<SubTexture name="femboy0012" x="570" y="242" width="281" height="238" frameX="-1" frameY="0" frameWidth="282" frameHeight="238"/>
+</TextureAtlas>

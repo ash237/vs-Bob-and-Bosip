@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pc.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PC Note DOWN0000" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0001" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0002" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0003" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0004" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0005" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0006" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0007" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0008" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0009" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0010" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0011" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0012" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0013" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0014" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note DOWN0015" x="3" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0000" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0001" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0002" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0003" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0004" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0005" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0006" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0007" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0008" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0009" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0010" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0011" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0012" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0013" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0014" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0015" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0016" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0017" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note LEFT0018" x="435" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0000" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0001" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0002" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0003" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0004" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0005" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0006" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0007" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0008" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0009" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0010" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0011" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0012" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0013" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0014" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note RIGHT0015" x="867" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0000" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0001" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0002" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0003" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0004" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0005" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0006" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0007" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0008" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0009" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0010" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0011" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0012" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0013" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0014" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0015" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0016" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0017" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0018" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0019" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0020" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0021" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0022" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0023" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0024" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0025" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0026" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0027" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0028" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0029" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0030" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0031" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0032" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0033" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0034" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0035" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0036" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0037" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0038" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0039" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0040" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0041" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0042" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0043" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0044" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0045" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0046" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0047" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0048" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0049" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0050" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0051" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0052" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0053" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0054" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0055" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0056" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0057" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0058" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC Note UP0059" x="1299" y="3" width="429" height="475"/>
+	<SubTexture name="PC idle0000" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0001" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0002" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0003" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0004" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0005" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0006" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0007" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0008" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0009" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0010" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0011" x="3" y="481" width="429" height="475"/>
+	<SubTexture name="PC idle0012" x="3" y="481" width="429" height="475"/>
+</TextureAtlas>

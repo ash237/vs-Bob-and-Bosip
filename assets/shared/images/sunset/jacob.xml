@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jacob.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="jacob0000" x="2" y="2" width="425" height="412" frameX="0" frameY="-3" frameWidth="425" frameHeight="415"/>
+	<SubTexture name="jacob0001" x="429" y="2" width="425" height="412" frameX="0" frameY="-3" frameWidth="425" frameHeight="415"/>
+	<SubTexture name="jacob0002" x="856" y="2" width="425" height="412" frameX="0" frameY="-3" frameWidth="425" frameHeight="415"/>
+	<SubTexture name="jacob0003" x="1283" y="2" width="425" height="414" frameX="0" frameY="-1" frameWidth="425" frameHeight="415"/>
+	<SubTexture name="jacob0004" x="2" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0005" x="429" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0006" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0007" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0008" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0009" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0010" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0011" x="856" y="418" width="425" height="415"/>
+	<SubTexture name="jacob0012" x="856" y="418" width="425" height="415"/>
+</TextureAtlas>

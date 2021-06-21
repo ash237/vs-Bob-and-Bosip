@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Start_Screen_bob.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="amortitle0000" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0001" x="804" y="2" width="784" height="1001" frameX="-7" frameY="-8" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0002" x="1590" y="2" width="788" height="975" frameX="-16" frameY="-37" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0003" x="2380" y="2" width="788" height="945" frameX="-16" frameY="-67" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0004" x="3170" y="2" width="788" height="933" frameX="-15" frameY="-78" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0005" x="2" y="1011" width="786" height="938" frameX="-13" frameY="-73" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0006" x="790" y="1011" width="785" height="951" frameX="-9" frameY="-59" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0007" x="1577" y="1011" width="782" height="972" frameX="-5" frameY="-37" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0008" x="2361" y="1011" width="781" height="993" frameX="-2" frameY="-15" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0009" x="3144" y="1011" width="796" height="1005" frameX="0" frameY="-3" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0010" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0011" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0012" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0013" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+	<SubTexture name="amortitle0014" x="2" y="2" width="800" height="1007" frameX="0" frameY="0" frameWidth="804" frameHeight="1012"/>
+</TextureAtlas>

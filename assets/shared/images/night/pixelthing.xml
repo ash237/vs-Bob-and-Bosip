@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pixelthing.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pixelthing0000" x="2" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0001" x="2" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0002" x="2" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0003" x="2" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0004" x="2" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0005" x="1284" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0006" x="1284" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0007" x="1284" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0008" x="1284" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0009" x="1284" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0010" x="2566" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0011" x="2566" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0012" x="2566" y="2" width="1280" height="720"/>
+	<SubTexture name="pixelthing0013" x="2566" y="2" width="1280" height="720"/>
+</TextureAtlas>
