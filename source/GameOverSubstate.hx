@@ -6,6 +6,8 @@ import flixel.FlxSubState;
 import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+import flixel.FlxSprite;
+import flixel.system.FlxSound;
 
 class GameOverSubstate extends MusicBeatSubstate
 {
@@ -23,6 +25,12 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'bf-pixel':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
+			case 'bf-ex':
+				daBf = 'bf-ex';
+			case 'bf-night-ex':
+				daBf = 'bf-ex';
+			case 'bf-worriedbob':
+				daBf = 'bf-worriedbob';
 			default:
 				daBf = 'bf';
 		}
@@ -36,8 +44,12 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		camFollow = new FlxObject(bf.getGraphicMidpoint().x, bf.getGraphicMidpoint().y, 1, 1);
 		add(camFollow);
-
-		FlxG.sound.play(Paths.sound('fnf_loss_sfx' + stageSuffix));
+		var die = new FlxSound();
+		if (daBf == 'bf-worriedbob')
+			die = new FlxSound().loadEmbedded(Paths.sound('explode_11', 'shared'));
+		else
+			die = new FlxSound().loadEmbedded(Paths.sound('fnf_loss_sfx' + stageSuffix, 'shared'));
+		die.play();
 		Conductor.changeBPM(100);
 
 		// FlxG.camera.followLerp = 1;
@@ -61,10 +73,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		{
 			FlxG.sound.music.stop();
 
-			if (PlayState.isStoryMode)
-				FlxG.switchState(new StoryMenuState());
-			else
-				FlxG.switchState(new FreeplayState());
+			if (PlayState.desktopMode) {
+				FlxG.switchState(new DesktopState());
+			} else {
+				if (PlayState.isStoryMode)
+					FlxG.switchState(new StoryMenuState());
+				else
+					FlxG.switchState(new FreeplayState());
+			}
 			PlayState.loadRep = false;
 		}
 

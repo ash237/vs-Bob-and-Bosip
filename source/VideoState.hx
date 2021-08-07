@@ -17,6 +17,10 @@ import flixel.addons.transition.FlxTransitionableState;
 
 import openfl.Lib;
 
+#if cpp
+import webm.WebmPlayer;
+#end
+
 using StringTools;
 
 class VideoState extends MusicBeatState
@@ -51,7 +55,7 @@ class VideoState extends MusicBeatState
 		
 		leSource = source;
 		transClass = toTrans;
-		
+
 		/*if (GlobalVideo.get() != null) {
 			GlobalVideo.get().hide();
 			GlobalVideo.get().stop();
@@ -121,11 +125,9 @@ class VideoState extends MusicBeatState
 		if (GlobalVideo.isWebm)
 		{
 			GlobalVideo.get().restart();
-			FlxG.log.add('just fucked your FATHER???');
 		} else {
 			//if (!vidSound.playing)
 			GlobalVideo.get().play();
-			FlxG.log.add('just fucked your mom');
 		}
 		
 		/*if (useSound)
@@ -249,7 +251,7 @@ class VideoState extends MusicBeatState
 					FlxG.sound.music.resume();
 				}
 				FlxG.autoPause = true;
-				GlobalVideo.get().hide();
+				/*GlobalVideo.get().hide();*/
 				GlobalVideo.get().stop();
 				FlxG.switchState(transClass);
 			}

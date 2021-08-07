@@ -84,6 +84,18 @@ class KadeEngineData
 		if (FlxG.save.data.beatWeek == null)
 			FlxG.save.data.beatWeek = false;
 
+		if (FlxG.save.data.beatITB == null)
+			FlxG.save.data.beatITB = false;
+
+		if (FlxG.save.data.beatBob == null)
+			FlxG.save.data.beatBob = false;
+
+		if (FlxG.save.data.beatSplitEX == null)
+			FlxG.save.data.beatSplitEX = false;
+
+		if (FlxG.save.data.unlockedEX == null)
+			FlxG.save.data.unlockedEX = false;
+
 		Conductor.recalculateTimings();
 		PlayerSettings.player1.controls.loadKeyBinds();
 		KeyBinds.keyCheck();

@@ -6,8 +6,10 @@ class Highscore
 {
 	#if (haxe >= "4.0.0")
 	public static var songScores:Map<String, Int> = new Map();
+	public static var songMisses:Map<String, Int> = new Map();
 	#else
 	public static var songScores:Map<String, Int> = new Map<String, Int>();
+	public static var songMisses:Map<String, Int> = new Map<String, Int>();
 	#end
 
 
@@ -40,6 +42,23 @@ class Highscore
 		}else trace('BotPlay detected. Score saving is disabled.');
 	}
 
+	public static function saveMisses(song:String, misses:Int = 0, ?diff:Int = 0):Void
+	{
+		var daSong:String = formatSong(song, diff).toLowerCase();
+
+		if(!FlxG.save.data.botplay)
+		{
+			if (songMisses.exists(daSong))
+			{
+				if (songMisses.get(daSong) > misses) {
+					setMisses(daSong, misses);
+				}
+			} else {
+				setMisses(daSong, misses);
+			}
+		}else trace('BotPlay detected. Score saving is disabled.');
+	}
+
 	public static function saveWeekScore(week:Int = 1, score:Int = 0, ?diff:Int = 0):Void
 	{
 
@@ -64,13 +83,23 @@ class Highscore
 	/**
 	 * YOU SHOULD FORMAT SONG WITH formatSong() BEFORE TOSSING IN SONG VARIABLE
 	 */
-	static function setScore(song:String, score:Int):Void
+	public static function setScore(song:String, score:Int):Void
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		songScores.set(song, score);
-		trace(songScores.get(song));
+		//trace(songScores.get(song));
 		
 		FlxG.save.data.songScores = songScores;
+		FlxG.save.flush();
+	}
+
+	static function setMisses(song:String, misses:Int):Void
+	{
+		// Reminder that I don't need to format this song, it should come formatted!
+		songMisses.set(song, misses);
+		//trace(songScores.get(song));
+		
+		FlxG.save.data.songMisses = songMisses;
 		FlxG.save.flush();
 	}
 
@@ -82,6 +111,8 @@ class Highscore
 			daSong += '-easy';
 		else if (diff == 2)
 			daSong += '-hard';
+		else if (diff == 3)
+			daSong += '-ex';
 
 		return daSong;
 	}
@@ -90,11 +121,30 @@ class Highscore
 	{
 		if (!songScores.exists(formatSong(song, diff)))
 			setScore(formatSong(song, diff), 0);
-		trace(formatSong(song, diff));
-		trace(songScores.get(formatSong(song, diff)));
+		//trace(formatSong(song, diff));
+		//trace(songScores.get(formatSong(song, diff)));
 		return songScores.get(formatSong(song, diff));
 	}
 
+	public static function getMissesString(song:String, diff:Int):String
+	{
+		if (!songMisses.exists(formatSong(song, diff)))
+			return 'N/A';
+		//trace(formatSong(song, diff));
+		//trace(songScores.get(formatSong(song, diff)));
+		return Std.string(songMisses.get(formatSong(song, diff)));
+	}
+
+
+	public static function getMisses(song:String, diff:Int):Int
+	{
+		if (!songMisses.exists(formatSong(song, diff)))
+			return -1;
+		//trace(formatSong(song, diff));
+		//trace(songScores.get(formatSong(song, diff)));
+		return songMisses.get(formatSong(song, diff));
+	}
+	
 	public static function getWeekScore(week:Int, diff:Int):Int
 	{
 		if (!songScores.exists(formatSong('week' + week, diff)))
@@ -108,6 +158,10 @@ class Highscore
 		if (FlxG.save.data.songScores != null)
 		{
 			songScores = FlxG.save.data.songScores;
+		}
+		if (FlxG.save.data.songMisses != null)
+		{
+			songMisses = FlxG.save.data.songMisses;
 		}
 	}
 }

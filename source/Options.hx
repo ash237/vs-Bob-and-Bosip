@@ -1,7 +1,9 @@
 package;
 
+import haxe.ValueException;
 import lime.app.Application;
 import lime.system.DisplayMode;
+import Sys;
 import flixel.util.FlxColor;
 import Controls.KeyboardScheme;
 import flixel.FlxG;
@@ -86,7 +88,7 @@ class DFJKOption extends Option
 
 	public override function press():Bool
 	{
-		OptionsMenu.instance.openSubState(new KeyBindMenu());
+		OptionsSubState.instance.openSubState(new KeyBindMenu());
 		return false;
 	}
 
@@ -118,6 +120,8 @@ class CpuStrums extends Option
 	}
 
 }
+
+
 
 class DownscrollOption extends Option
 {
@@ -494,6 +498,7 @@ class ReplayOption extends Option
 	{
 		trace("switch");
 		FlxG.switchState(new LoadReplayState());
+		DesktopState.theSong.stop();
 		return false;
 	}
 
@@ -502,6 +507,29 @@ class ReplayOption extends Option
 		return "Load replays";
 	}
 }
+class ClearedSaveData extends haxe.Exception {}
+class EraseSaveData extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+	
+	public override function press():Bool
+	{
+		FlxG.save.erase();
+		Sys.exit(0);
+		return true;
+
+	}
+
+	private override function updateDisplay():String
+	{
+		return "Erase Save Data";
+	}
+}
+
 
 class AccuracyDOption extends Option
 {
@@ -520,7 +548,7 @@ class AccuracyDOption extends Option
 
 	private override function updateDisplay():String
 	{
-		return "Accuracy Mode: " + (FlxG.save.data.accuracyMod == 0 ? "Accurate" : "Complex");
+		return "Accuracy Mode " + (FlxG.save.data.accuracyMod == 0 ? "Accurate" : "Complex");
 	}
 }
 
@@ -536,6 +564,7 @@ class CustomizeGameplay extends Option
 	{
 		trace("switch");
 		FlxG.switchState(new GameplayCustomizeState());
+		DesktopState.theSong.stop();
 		return false;
 	}
 
@@ -584,9 +613,11 @@ class OffsetMenu extends Option
 		PlayState.isStoryMode = false;
 		PlayState.storyDifficulty = 0;
 		PlayState.storyWeek = 0;
+		PlayState.desktopMode = true;
 		PlayState.offsetTesting = true;
 		trace('CUR WEEK' + PlayState.storyWeek);
 		LoadingState.loadAndSwitchState(new PlayState());
+		DesktopState.theSong.stop();
 		return false;
 	}
 

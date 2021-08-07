@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="worriedbosip.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BOSIP Scared0000" x="3" y="3" width="292" height="737" frameX="-3" frameY="0" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0001" x="298" y="3" width="296" height="735" frameX="-1" frameY="-2" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0002" x="597" y="3" width="300" height="734" frameX="0" frameY="-3" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0003" x="597" y="3" width="300" height="734" frameX="0" frameY="-3" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0004" x="597" y="3" width="300" height="734" frameX="0" frameY="-3" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0005" x="900" y="3" width="297" height="735" frameX="-1" frameY="-2" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0006" x="1200" y="3" width="294" height="736" frameX="-2" frameY="-1" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0007" x="1497" y="3" width="294" height="736" frameX="-2" frameY="-1" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0008" x="3" y="743" width="292" height="736" frameX="-3" frameY="-1" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0009" x="298" y="743" width="292" height="737" frameX="-3" frameY="0" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0010" x="3" y="3" width="292" height="737" frameX="-3" frameY="0" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0011" x="593" y="743" width="292" height="737" frameX="-3" frameY="0" frameWidth="300" frameHeight="737"/>
+	<SubTexture name="BOSIP Scared0012" x="3" y="3" width="292" height="737" frameX="-3" frameY="0" frameWidth="300" frameHeight="737"/>
+</TextureAtlas>

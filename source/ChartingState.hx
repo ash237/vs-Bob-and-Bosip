@@ -97,6 +97,7 @@ class ChartingState extends MusicBeatState
 	var claps:Array<Note> = [];
 
 	public var snapText:FlxText;
+	public static var effectsMode:Bool = false;
 
 	override function create()
 	{
@@ -120,7 +121,8 @@ class ChartingState extends MusicBeatState
 				validScore: false
 			};
 		}
-
+		if (effectsMode == true)
+			_song = PlayState.effectSONG;
 		gridBG = FlxGridOverlay.create(GRID_SIZE, GRID_SIZE, GRID_SIZE * 8, GRID_SIZE * 16);
 		add(gridBG);
 
@@ -139,7 +141,7 @@ class ChartingState extends MusicBeatState
 		curRenderedSustains = new FlxTypedGroup<FlxSprite>();
 
 		FlxG.mouse.visible = true;
-		FlxG.save.bind('funkin', 'ninjamuffin99');
+		FlxG.save.bind('funkin', 'bobandbosip');
 
 		tempBpm = _song.bpm;
 
@@ -245,6 +247,12 @@ class ChartingState extends MusicBeatState
 		var reloadSongJson:FlxButton = new FlxButton(reloadSong.x, saveButton.y + 30, "Reload JSON", function()
 		{
 			loadJson(_song.song.toLowerCase());
+		});
+
+		
+		var reloadEffectsJson:FlxButton = new FlxButton(reloadSong.x, saveButton.y + 100, "Reload EFFECTS", function()
+		{
+			loadEffects(_song.song.toLowerCase());
 		});
 
 		
@@ -363,6 +371,7 @@ class ChartingState extends MusicBeatState
 		tab_group_song.add(saveButton);
 		tab_group_song.add(reloadSong);
 		tab_group_song.add(reloadSongJson);
+		tab_group_song.add(reloadEffectsJson);
 		tab_group_song.add(loadAutosaveBtn);
 		tab_group_song.add(stepperBPM);
 		tab_group_song.add(stepperBPMLabel);
@@ -442,6 +451,38 @@ class ChartingState extends MusicBeatState
 				updateGrid();
 			}
 		});
+		var turntoDuet:FlxButton = new FlxButton(10, 190, "make duet", function()
+		{
+			for (i in 0..._song.notes[curSection].sectionNotes.length)
+			{
+				_song.notes[curSection].sectionNotes[i][3] = 'duet';
+				updateGrid();
+			}
+		});
+		var turntoCerb:FlxButton = new FlxButton(10, 210, "make cerb", function()
+		{
+			for (i in 0..._song.notes[curSection].sectionNotes.length)
+			{
+				_song.notes[curSection].sectionNotes[i][3] = 'cerb';
+				updateGrid();
+			}
+		});
+
+		var turnBFtoBF:FlxButton = new FlxButton(10, 240, "make bf to bf (real)", function()
+		{
+			for (i in 0..._song.notes[curSection].sectionNotes.length)
+			{
+				if (_song.notes[curSection].mustHitSection) {
+					if (_song.notes[curSection].sectionNotes[i][1] <= 3 && _song.notes[curSection].sectionNotes[i][1] >= 0)
+						_song.notes[curSection].sectionNotes[i][3] = 'normal';
+				} else {
+					if (_song.notes[curSection].sectionNotes[i][1] >= 4)
+						_song.notes[curSection].sectionNotes[i][3] = 'normal';
+				}
+				
+				updateGrid();
+			}
+		});
 		check_mustHitSection = new FlxUICheckBox(10, 30, null, null, "Camera Points to P1?", 100);
 		check_mustHitSection.name = 'check_mustHit';
 		check_mustHitSection.checked = true;
@@ -464,6 +505,9 @@ class ChartingState extends MusicBeatState
 		tab_group_section.add(copyButton);
 		tab_group_section.add(clearSectionButton);
 		tab_group_section.add(swapSection);
+		tab_group_section.add(turntoDuet);
+		tab_group_section.add(turntoCerb);
+		tab_group_section.add(turnBFtoBF);
 
 		UI_box.addGroup(tab_group_section);
 	}
@@ -514,11 +558,16 @@ class ChartingState extends MusicBeatState
 			FlxG.sound.music.stop();
 			// vocals.stop();
 		}
-
-		FlxG.sound.playMusic(Paths.inst(daSong), 0.6);
+		if (PlayState.storyDifficulty == 3)
+			FlxG.sound.playMusic(Paths.instEX(daSong), 0.6);
+		else
+			FlxG.sound.playMusic(Paths.inst(daSong), 0.6);
 
 		// WONT WORK FOR TUTORIAL OR TEST SONG!!! REDO LATER
-		vocals = new FlxSound().loadEmbedded(Paths.voices(daSong));
+		if (PlayState.storyDifficulty == 3)
+			vocals = new FlxSound().loadEmbedded(Paths.voicesEX(daSong));
+		else
+			vocals = new FlxSound().loadEmbedded(Paths.voices(daSong));
 		FlxG.sound.list.add(vocals);
 
 		FlxG.sound.music.pause();
@@ -870,7 +919,8 @@ class ChartingState extends MusicBeatState
 		{
 			lastSection = curSection;
 
-			PlayState.SONG = _song;
+			if (FlxG.keys.pressed.SHIFT)
+				PlayState.effectSONG = _song;
 			FlxG.sound.music.stop();
 			vocals.stop();
 			LoadingState.loadAndSwitchState(new PlayState());
@@ -1404,6 +1454,18 @@ class ChartingState extends MusicBeatState
 			noteType = 'ready';
 		if (FlxG.keys.pressed.C)
 			noteType = 'kill';
+		if (FlxG.keys.pressed.X)
+			noteType = 'cerb';
+		if (FlxG.keys.pressed.Z)
+			noteType = 'duet';
+		if (FlxG.keys.pressed.K)
+			noteType = '4';
+		if (FlxG.keys.pressed.J)
+			noteType = '5';
+		if (FlxG.keys.pressed.H)
+			noteType = '6';
+		if (FlxG.keys.pressed.G)
+			noteType = '7';
 
 		if (n != null)
 			_song.notes[curSection].sectionNotes.push([n.strumTime, n.noteData, n.sustainLength, n.noteType]);
@@ -1475,6 +1537,13 @@ class ChartingState extends MusicBeatState
 	function loadJson(song:String):Void
 	{
 		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
+		LoadingState.loadAndSwitchState(new ChartingState());
+	}
+
+	function loadEffects(song:String):Void
+	{
+		//PlayState.SONG = Song.loadFromJson('effects-ex', song.toLowerCase());
+		effectsMode = true;
 		LoadingState.loadAndSwitchState(new ChartingState());
 	}
 

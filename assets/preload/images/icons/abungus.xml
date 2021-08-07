@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="abungus.png">
+	<!-- Created with Adobe Animate version 21.0.4.39603 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="icon0000" x="3" y="3" width="150" height="150"/>
+	<SubTexture name="icon0001" x="156" y="3" width="150" height="150"/>
+	<SubTexture name="icon0002" x="309" y="3" width="150" height="150"/>
+	<SubTexture name="icon0003" x="3" y="156" width="150" height="150"/>
+	<SubTexture name="icon0004" x="156" y="156" width="150" height="150"/>
+	<SubTexture name="icon0005" x="309" y="156" width="150" height="150"/>
+</TextureAtlas>

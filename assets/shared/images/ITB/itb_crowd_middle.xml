@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="itb_crowd_middle.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="itb_crowd_middle instance 10000" x="0" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10001" x="3900" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10002" x="0" y="1480" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10003" x="3900" y="1480" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10004" x="0" y="2960" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10005" x="3900" y="2960" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10006" x="0" y="4440" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10007" x="3900" y="4440" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10008" x="0" y="5920" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10009" x="3900" y="5920" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10010" x="0" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10011" x="0" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10012" x="0" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10013" x="0" y="0" width="3895" height="1475"/>
+	<SubTexture name="itb_crowd_middle instance 10014" x="0" y="0" width="3895" height="1475"/>
+</TextureAtlas>

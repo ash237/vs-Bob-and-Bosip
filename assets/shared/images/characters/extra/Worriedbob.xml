@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Worriedbob.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BOB Sing Note DOWN0000" x="2" y="2" width="300" height="664" frameX="0" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0001" x="2" y="2" width="300" height="664" frameX="0" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0002" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0003" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0004" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0005" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0006" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0007" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0008" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0009" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0010" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0011" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0012" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0013" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0014" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note DOWN0015" x="304" y="2" width="305" height="670" frameX="-3" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="BOB Sing Note LEFT0000" x="611" y="2" width="362" height="719" frameX="0" frameY="-7" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0001" x="611" y="2" width="362" height="719" frameX="0" frameY="-7" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0002" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0003" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0004" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0005" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0006" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0007" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0008" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0009" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0010" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0011" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0012" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0013" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0014" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0015" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0016" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0017" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note LEFT0018" x="975" y="2" width="365" height="726" frameX="-6" frameY="0" frameWidth="371" frameHeight="726"/>
+	<SubTexture name="BOB Sing Note RIGHT0000" x="1342" y="2" width="342" height="707" frameX="-4" frameY="-6" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0001" x="1342" y="2" width="342" height="707" frameX="-4" frameY="-6" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0002" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0003" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0004" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0005" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0006" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0007" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0008" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0009" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0010" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0011" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0012" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0013" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0014" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note RIGHT0015" x="1686" y="2" width="344" height="713" frameX="0" frameY="0" frameWidth="346" frameHeight="713"/>
+	<SubTexture name="BOB Sing Note UP0000" x="2032" y="2" width="326" height="744" frameX="-1" frameY="-3" frameWidth="328" frameHeight="747"/>
+	<SubTexture name="BOB Sing Note UP0001" x="2032" y="2" width="326" height="744" frameX="-1" frameY="-3" frameWidth="328" frameHeight="747"/>
+	<SubTexture name="BOB Sing Note UP0002" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0003" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0004" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0005" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0006" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0007" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0008" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0009" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0010" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0011" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0012" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0013" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0014" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0015" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0016" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0017" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0018" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0019" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0020" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0021" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0022" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0023" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0024" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0025" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0026" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0027" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0028" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0029" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0030" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0031" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0032" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0033" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0034" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0035" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0036" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0037" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0038" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0039" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0040" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0041" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0042" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0043" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0044" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0045" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0046" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0047" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0048" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0049" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0050" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0051" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0052" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0053" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0054" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0055" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0056" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0057" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0058" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB Sing Note UP0059" x="2360" y="2" width="328" height="747"/>
+	<SubTexture name="BOB idle dance0000" x="2690" y="2" width="280" height="720" frameX="-14" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0001" x="2972" y="2" width="287" height="720" frameX="-7" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0002" x="3261" y="2" width="301" height="721"/>
+	<SubTexture name="BOB idle dance0003" x="3564" y="2" width="301" height="720" frameX="0" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0004" x="3867" y="2" width="301" height="719" frameX="0" frameY="-2" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0005" x="4170" y="2" width="289" height="719" frameX="-6" frameY="-2" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0006" x="4461" y="2" width="284" height="720" frameX="-10" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0007" x="4747" y="2" width="282" height="720" frameX="-12" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0008" x="5031" y="2" width="281" height="720" frameX="-13" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0009" x="5314" y="2" width="280" height="720" frameX="-14" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0010" x="5596" y="2" width="280" height="720" frameX="-14" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0011" x="2690" y="2" width="280" height="720" frameX="-14" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="BOB idle dance0012" x="2690" y="2" width="280" height="720" frameX="-14" frameY="-1" frameWidth="301" frameHeight="721"/>
+	<SubTexture name="Bob Miss down0000" x="5878" y="2" width="304" height="671" frameX="-4" frameY="0" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0001" x="6184" y="2" width="304" height="657" frameX="0" frameY="-14" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0002" x="6184" y="2" width="304" height="657" frameX="0" frameY="-14" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0003" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0004" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0005" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0006" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0007" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0008" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0009" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0010" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0011" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0012" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0013" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0014" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0015" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0016" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0017" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0018" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0019" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0020" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0021" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0022" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss down0023" x="6490" y="2" width="297" height="660" frameX="-3" frameY="-11" frameWidth="308" frameHeight="671"/>
+	<SubTexture name="Bob Miss left0000" x="6789" y="2" width="360" height="719" frameX="-9" frameY="-2" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0001" x="7151" y="2" width="372" height="722"/>
+	<SubTexture name="Bob Miss left0002" x="7151" y="2" width="372" height="722"/>
+	<SubTexture name="Bob Miss left0003" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0004" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0005" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0006" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0007" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0008" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0009" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0010" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0011" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0012" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0013" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0014" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0015" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0016" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0017" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0018" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0019" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0020" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0021" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0022" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0023" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss left0024" x="7525" y="2" width="362" height="722" frameX="-8" frameY="0" frameWidth="372" frameHeight="722"/>
+	<SubTexture name="Bob Miss right0000" x="2" y="751" width="341" height="707" frameX="-2" frameY="-5" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0001" x="345" y="751" width="362" height="708" frameX="0" frameY="-4" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0002" x="345" y="751" width="362" height="708" frameX="0" frameY="-4" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0003" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0004" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0005" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0006" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0007" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0008" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0009" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0010" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0011" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0012" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0013" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0014" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0015" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0016" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0017" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0018" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0019" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0020" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss right0021" x="709" y="751" width="351" height="712" frameX="-2" frameY="0" frameWidth="362" frameHeight="712"/>
+	<SubTexture name="Bob Miss up0000" x="1062" y="751" width="325" height="745" frameX="-11" frameY="-3" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0001" x="1389" y="751" width="332" height="747" frameX="-3" frameY="0" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0002" x="1389" y="751" width="332" height="747" frameX="-3" frameY="0" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0003" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0004" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0005" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0006" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0007" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0008" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0009" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0010" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0011" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0012" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0013" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0014" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0015" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0016" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0017" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0018" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0019" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0020" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0021" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0022" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0023" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="Bob Miss up0024" x="1723" y="751" width="339" height="741" frameX="0" frameY="-5" frameWidth="339" frameHeight="748"/>
+	<SubTexture name="bob fucking dies0000" x="2064" y="751" width="453" height="673" frameX="-50" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0001" x="2519" y="751" width="544" height="673" frameX="-17" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0002" x="3065" y="751" width="544" height="671" frameX="-17" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0003" x="3611" y="751" width="561" height="671" frameX="-27" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0004" x="3611" y="751" width="561" height="671" frameX="-27" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0005" x="4174" y="751" width="555" height="671" frameX="-32" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0006" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0007" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0008" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0009" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0010" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0011" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0012" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0013" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0014" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0015" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0016" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0017" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0018" x="4731" y="751" width="465" height="671" frameX="-39" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0019" x="5198" y="751" width="469" height="671" frameX="-35" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0020" x="5669" y="751" width="478" height="671" frameX="-26" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0021" x="6149" y="751" width="492" height="671" frameX="-12" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0022" x="6643" y="751" width="499" height="671" frameX="-5" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0023" x="7144" y="751" width="502" height="671" frameX="-2" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0024" x="7648" y="751" width="504" height="671" frameX="0" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0025" x="2" y="1500" width="503" height="715" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0026" x="2" y="1500" width="503" height="715" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0027" x="507" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0028" x="507" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0029" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0030" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0031" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0032" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0033" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0034" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0035" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0036" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0037" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0038" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0039" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0040" x="1012" y="1500" width="503" height="712" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0041" x="1517" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0042" x="1517" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0043" x="1517" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0044" x="2022" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0045" x="2022" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0046" x="2022" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0047" x="2527" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0048" x="2527" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0049" x="2527" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0050" x="2527" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0051" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0052" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0053" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0054" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0055" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0056" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies0057" x="3032" y="1500" width="503" height="713" frameX="-1" frameY="-2" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies confirm0000" x="3537" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0001" x="4042" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0002" x="4547" y="1500" width="503" height="724"/>
+	<SubTexture name="bob fucking dies confirm0003" x="5052" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0004" x="5557" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0005" x="6062" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0006" x="6567" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0007" x="7072" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0008" x="7577" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0009" x="2" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0010" x="507" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0011" x="1012" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0012" x="1517" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0013" x="2022" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0014" x="2527" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0015" x="3032" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0016" x="3537" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0017" x="4042" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0018" x="4042" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0019" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0020" x="3537" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0021" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0022" x="3537" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0023" x="3537" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0024" x="3537" y="1500" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0025" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0026" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0027" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0028" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0029" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0030" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0031" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0032" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies confirm0033" x="4547" y="2226" width="503" height="713" frameX="0" frameY="-11" frameWidth="503" frameHeight="724"/>
+	<SubTexture name="bob fucking dies loop0000" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0001" x="5052" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0002" x="5052" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0003" x="5557" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0004" x="5557" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0005" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0006" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0007" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0008" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0009" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0010" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0011" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0012" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0013" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0014" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0015" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0016" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0017" x="6062" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0018" x="5052" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0019" x="5052" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0020" x="5557" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0021" x="5557" y="2226" width="503" height="713"/>
+	<SubTexture name="bob fucking dies loop0022" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0023" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0024" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0025" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0026" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0027" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0028" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0029" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0030" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0031" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0032" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0033" x="3032" y="1500" width="503" height="713" frameX="0" frameY="0" frameWidth="588" frameHeight="717"/>
+	<SubTexture name="bob fucking dies loop0034" x="6062" y="2226" width="503" height="713"/>
+</TextureAtlas>

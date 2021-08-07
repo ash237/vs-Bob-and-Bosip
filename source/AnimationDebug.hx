@@ -24,6 +24,7 @@ class AnimationDebug extends FlxState
 	var isDad:Bool = true;
 	var daAnim:String = 'spooky';
 	var camFollow:FlxObject;
+	var dadBG:Character;
 
 	public function new(daAnim:String = 'spooky')
 	{
@@ -44,6 +45,13 @@ class AnimationDebug extends FlxState
 
 		if (isDad)
 		{
+			dadBG = new Character(0, 0, daAnim);
+			dadBG.screenCenter();
+			dadBG.debugMode = true;
+			dadBG.alpha = 0.75;
+			dadBG.color = 0xFF000000;
+
+			add(dadBG);
 			dad = new Character(0, 0, daAnim);
 			dad.screenCenter();
 			dad.debugMode = true;
@@ -51,6 +59,7 @@ class AnimationDebug extends FlxState
 
 			char = dad;
 			dad.flipX = false;
+			dadBG.flipX = false;
 		}
 		else
 		{
@@ -139,6 +148,10 @@ class AnimationDebug extends FlxState
 			camFollow.velocity.set();
 		}
 
+		if (FlxG.keys.pressed.Z) {
+			dad.flipX = !dad.flipX;
+			dadBG.flipX = !dadBG.flipX;
+		}
 		if (FlxG.keys.justPressed.W)
 		{
 			curAnim -= 1;
@@ -161,6 +174,10 @@ class AnimationDebug extends FlxState
 
 			updateTexts();
 			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.ENTER)
+		{
+			FlxG.switchState(new PlayState());
 		}
 
 		var upP = FlxG.keys.anyJustPressed([UP]);

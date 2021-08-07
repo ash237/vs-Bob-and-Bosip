@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ex_crowd.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bobidlebig instance 10000" x="0" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10001" x="1870" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10002" x="0" y="615" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10003" x="1870" y="615" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10004" x="0" y="1230" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10005" x="1870" y="1230" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10006" x="0" y="1845" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10007" x="1870" y="1845" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10008" x="0" y="2460" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10009" x="1870" y="2460" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10010" x="0" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10011" x="0" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10012" x="0" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10013" x="0" y="0" width="1865" height="610"/>
+	<SubTexture name="bobidlebig instance 10014" x="0" y="0" width="1865" height="610"/>
+</TextureAtlas>

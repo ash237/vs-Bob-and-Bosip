@@ -33,6 +33,13 @@ class PauseSubState extends MusicBeatSubstate
 	{
 		super();
 
+		if (PlayState.instance.useVideo)
+		{
+			menuItems.remove("Resume");
+			if (GlobalVideo.get().playing)
+				GlobalVideo.get().pause();
+		}
+
 		pauseMusic = new FlxSound().loadEmbedded(Paths.music('breakfast'), true, true);
 		pauseMusic.volume = 0;
 		pauseMusic.play(false, FlxG.random.int(0, Std.int(pauseMusic.length / 2)));
@@ -99,6 +106,10 @@ class PauseSubState extends MusicBeatSubstate
 
 		super.update(elapsed);
 
+		
+		if (PlayState.instance.useVideo)
+			menuItems.remove('Resume');
+
 		var upP = controls.UP_P;
 		var downP = controls.DOWN_P;
 		var leftP = controls.LEFT_P;
@@ -121,7 +132,7 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				oldOffset = PlayState.songOffset;
 				PlayState.songOffset -= 1;
-				sys.FileSystem.rename(songPath + oldOffset + '.offset', songPath + PlayState.songOffset + '.offset');
+				//sys.FileSystem.rename(songPath + oldOffset + '.offset', songPath + PlayState.songOffset + '.offset');
 				perSongOffset.text = "Additive Offset (Left, Right): " + PlayState.songOffset + " - Description - " + 'Adds value to global offset, per song.';
 
 				// Prevent loop from happening every single time the offset changes
@@ -149,7 +160,7 @@ class PauseSubState extends MusicBeatSubstate
 			{
 				oldOffset = PlayState.songOffset;
 				PlayState.songOffset += 1;
-				sys.FileSystem.rename(songPath + oldOffset + '.offset', songPath + PlayState.songOffset + '.offset');
+				//sys.FileSystem.rename(songPath + oldOffset + '.offset', songPath + PlayState.songOffset + '.offset');
 				perSongOffset.text = "Additive Offset (Left, Right): " + PlayState.songOffset + " - Description - " + 'Adds value to global offset, per song.';
 				if(!offsetChanged)
 				{
@@ -183,8 +194,22 @@ class PauseSubState extends MusicBeatSubstate
 				case "Resume":
 					close();
 				case "Restart Song":
+					if (PlayState.instance.useVideo)
+					{
+						GlobalVideo.get().stop();
+						PlayState.instance.remove(PlayState.instance.videoSprite);
+						PlayState.instance.removedVideo = true;
+					}
 					FlxG.resetState();
+					
 				case "Exit to menu":
+					if (PlayState.instance.useVideo)
+					{
+						GlobalVideo.get().stop();
+						PlayState.instance.remove(PlayState.instance.videoSprite);
+						PlayState.instance.removedVideo = true;
+					}
+
 					if(PlayState.loadRep)
 					{
 						FlxG.save.data.botplay = false;
@@ -201,8 +226,10 @@ class PauseSubState extends MusicBeatSubstate
 					#end
 					if (FlxG.save.data.fpsCap > 290)
 						(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
-					
-					FlxG.switchState(new MainMenuState());
+					if (PlayState.desktopMode)
+						FlxG.switchState(new DesktopState());
+					else
+						FlxG.switchState(new MainMenuState());
 			}
 		}
 

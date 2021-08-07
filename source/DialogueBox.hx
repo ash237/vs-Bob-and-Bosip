@@ -34,17 +34,19 @@ class DialogueBox extends FlxSpriteGroup
 	var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
 
+	var canContinue:Bool = true;
+
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
 	{
 		super();
 
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			case 'senpai':
-				FlxG.sound.playMusic(Paths.music('Lunchbox'), 0);
+			case 'jump-out':
+				FlxG.sound.playMusic(Paths.music('Cutscene_Bob'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
-			case 'thorns':
-				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
+			case 'ronald mcdonald slide':
+				FlxG.sound.playMusic(Paths.music('Cutscene_Ronsip'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 		}
 
@@ -65,28 +67,12 @@ class DialogueBox extends FlxSpriteGroup
 		var hasDialog = false;
 		switch (PlayState.SONG.song.toLowerCase())
 		{
-			case 'senpai':
+			default:
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-pixel');
+				box = new FlxSprite(0, 0);
+				box.frames = Paths.getSparrowAtlas('onslaught/dialogueBox-bob', 'shared');
 				box.animation.addByPrefix('normalOpen', 'Text Box Appear', 24, false);
 				box.animation.addByIndices('normal', 'Text Box Appear', [4], "", 24);
-			case 'roses':
-				hasDialog = true;
-				FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
-
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-senpaiMad');
-				box.animation.addByPrefix('normalOpen', 'SENPAI ANGRY IMPACT SPEECH', 24, false);
-				box.animation.addByIndices('normal', 'SENPAI ANGRY IMPACT SPEECH', [4], "", 24);
-
-			case 'thorns':
-				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('weeb/pixelUI/dialogueBox-evil');
-				box.animation.addByPrefix('normalOpen', 'Spirit Textbox spawn', 24, false);
-				box.animation.addByIndices('normal', 'Spirit Textbox spawn', [11], "", 24);
-
-				var face:FlxSprite = new FlxSprite(320, 170).loadGraphic(Paths.image('weeb/spiritFaceForward'));
-				face.setGraphicSize(Std.int(face.width * 6));
-				add(face);
 		}
 
 		this.dialogueList = dialogueList;
@@ -94,26 +80,29 @@ class DialogueBox extends FlxSpriteGroup
 		if (!hasDialog)
 			return;
 		
+		
+		portraitLeft = new FlxSprite(0, 0);
+		portraitLeft.frames = Paths.getSparrowAtlas('onslaught/bobPortrait', 'shared');
+
+		portraitLeft = new FlxSprite(0, 5);
+		portraitLeft.frames = Paths.getSparrowAtlas('onslaught/ronPortrait', 'shared');
+
 		portraitLeft = new FlxSprite(-20, 40);
-		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
-		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
-		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
-		portraitLeft.updateHitbox();
-		portraitLeft.scrollFactor.set();
 		add(portraitLeft);
 		portraitLeft.visible = false;
 
+		portraitRight = new FlxSprite(0, 0);
+		portraitRight.frames = Paths.getSparrowAtlas('onslaught/WOOOOAH', 'shared');
+
+		portraitRight = new FlxSprite(0, 0);
+		portraitRight.frames = Paths.getSparrowAtlas('onslaught/bfPortrait', 'shared');
+
 		portraitRight = new FlxSprite(0, 40);
-		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
-		portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
-		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.9));
-		portraitRight.updateHitbox();
-		portraitRight.scrollFactor.set();
 		add(portraitRight);
 		portraitRight.visible = false;
 		
 		box.animation.play('normalOpen');
-		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
+		//box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
 		box.updateHitbox();
 		add(box);
 
@@ -121,7 +110,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitLeft.screenCenter(X);
 
 		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
-		add(handSelect);
+		//add(handSelect);
 
 
 		if (!talkingRight)
@@ -177,12 +166,16 @@ class DialogueBox extends FlxSpriteGroup
 			dialogueStarted = true;
 		}
 
-		if (FlxG.keys.justPressed.ANY  && dialogueStarted == true)
+		if (FlxG.keys.justPressed.ANY  && dialogueStarted == true && canContinue)
 		{
 			remove(dialogue);
 				
 			FlxG.sound.play(Paths.sound('clickText'), 0.8);
-
+			canContinue = false;
+			new FlxTimer().start(0.1, function(tmr:FlxTimer)
+			{
+				canContinue = true;
+			});
 			if (dialogueList[1] == null && dialogueList[0] != null)
 			{
 				if (!isEnding)
@@ -234,20 +227,46 @@ class DialogueBox extends FlxSpriteGroup
 
 		switch (curCharacter)
 		{
-			case 'dad':
+			case 'gloopy':
 				portraitRight.visible = false;
-				if (!portraitLeft.visible)
-				{
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-				}
+				remove(portraitLeft);
+				portraitLeft = new FlxSprite(0, 0);
+				portraitLeft.frames = Paths.getSparrowAtlas('onslaught/bobPortrait', 'shared');
+				portraitLeft.animation.addByPrefix('enter', 'Bob Portrait Enter', 24, false);
+				portraitLeft.updateHitbox();
+				portraitLeft.scrollFactor.set();
+				add(portraitLeft);
+				portraitLeft.animation.play('enter');
+			case 'ron':
+				portraitRight.visible = false;
+				remove(portraitLeft);
+				portraitLeft = new FlxSprite(0, 5);
+				portraitLeft.frames = Paths.getSparrowAtlas('onslaught/ronPortrait', 'shared');
+				portraitLeft.animation.addByPrefix('enter', 'Bob Portrait Enter', 24, false);
+				portraitLeft.updateHitbox();
+				portraitLeft.scrollFactor.set();
+				add(portraitLeft);
+				portraitLeft.animation.play('enter');
 			case 'bf':
 				portraitLeft.visible = false;
-				if (!portraitRight.visible)
-				{
-					portraitRight.visible = true;
-					portraitRight.animation.play('enter');
-				}
+				remove(portraitRight);
+				portraitRight = new FlxSprite(0, 0);
+				portraitRight.frames = Paths.getSparrowAtlas('onslaught/bfPortrait', 'shared');
+				portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
+				portraitRight.updateHitbox();
+				portraitRight.scrollFactor.set();
+				add(portraitRight);
+				portraitRight.animation.play('enter');
+			case 'gf':
+				portraitLeft.visible = false;
+				remove(portraitRight);
+				portraitRight = new FlxSprite(0, 0);
+				portraitRight.frames = Paths.getSparrowAtlas('onslaught/WOOOOAH', 'shared');
+				portraitRight.animation.addByPrefix('enter', 'GF portrait enter', 24, false);
+				portraitRight.updateHitbox();
+				portraitRight.scrollFactor.set();
+				add(portraitRight);
+				portraitRight.animation.play('enter');
 		}
 	}
 

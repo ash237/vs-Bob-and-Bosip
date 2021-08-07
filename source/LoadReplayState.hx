@@ -74,6 +74,7 @@ class LoadReplayState extends MusicBeatState
 		{
 				var controlLabel:Alphabet = new Alphabet(0, (70 * i) + 30, controlsStrings[i], true, false);
 				controlLabel.isMenuItem = true;
+				controlLabel.isPauseScreen = true;
 				controlLabel.targetY = i;
 				grpControls.add(controlLabel);
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
@@ -133,8 +134,12 @@ class LoadReplayState extends MusicBeatState
 	{
 		super.update(elapsed);
 
-			if (controls.BACK)
-				FlxG.switchState(new OptionsMenu());
+			if (controls.BACK) {
+				if (OptionsSubState.inDesktop)
+					FlxG.switchState(new DesktopState());
+				else 
+					FlxG.switchState(new MainMenuState());
+			}
 			if (controls.UP_P)
 				changeSelection(-1);
 			if (controls.DOWN_P)

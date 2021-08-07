@@ -9,10 +9,10 @@ class CreditIcon extends FlxSprite
 	 */
 	public var link:String;
 
-	public function new(icon:String, ?daLink:String = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+	public function new(xPos:Float = 0, yPos:Float = 0, icon:String = 'Amor', ?daLink:String = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 	{
-		super();
+		super(xPos, yPos);
 		link = daLink;
-		loadGraphic(Paths.image('credits/' + icon, 'shared'));
+		loadGraphic(Paths.image('credits/icons/icon' + icon));
 	}
 }

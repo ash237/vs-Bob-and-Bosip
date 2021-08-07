@@ -38,7 +38,7 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal', ?isKey:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?noteType:String = 'normal', ?noteSkin:String = 'normal')
 	{
 		super();
 
@@ -92,13 +92,21 @@ class Note extends FlxSprite
 				switch (noteType) {
 					case 'drop' | 'are' | 'you' | 'ready' | 'kill':
 						frames = Paths.getSparrowAtlas('indicators', 'shared');
+					case 'duet':
+						if (noteData == 1 || noteData == 3)
+							frames = Paths.getSparrowAtlas('notes/cerbera', 'shared');
+						else
+							frames = Paths.getSparrowAtlas('notes/' + noteSkin, 'shared');
+					case 'cerb':
+							frames = Paths.getSparrowAtlas('notes/cerbera', 'shared');
 					default:
-						if (isKey) {
-							frames = Paths.getSparrowAtlas('night/NOTEKEY_assets', 'shared');
-						} else {
-							frames = Paths.getSparrowAtlas('NOTE_assets');
-						}
+						frames = Paths.getSparrowAtlas('notes/' + noteSkin, 'shared');
 				}
+
+				animation.addByPrefix('arrowUP', 'arrowUP0');
+				animation.addByPrefix('arrowDOWN', 'arrowDOWN0');
+				animation.addByPrefix('arrowLEFT', 'arrowLEFT0');
+				animation.addByPrefix('arrowRIGHT', 'arrowRIGHT0');
 
 				animation.addByPrefix('greenScroll', 'green0');
 				animation.addByPrefix('redScroll', 'red0');
@@ -131,6 +139,14 @@ class Note extends FlxSprite
 				animation.play('blueScroll');
 			case 'kill':
 				animation.play('arrowUP');
+			case '4':
+				animation.play('arrowDOWN');
+			case '5':
+				animation.play('arrowLEFT');
+			case '6':
+				animation.play('arrowRIGHT');
+			case '7':
+				animation.play('purplehold');
 			default:
 				switch (noteData)
 				{
