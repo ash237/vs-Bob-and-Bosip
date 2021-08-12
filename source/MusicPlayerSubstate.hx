@@ -158,7 +158,7 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 				bpms.push(160);
 				songsToPlay.push(Paths.music('8bit split', 'shared'));
 				songNames.push('8-bit split');
-				iconArray.push('amor');
+				iconArray.push('pixel-amor');
 				songLength++;
 			}
 		}

@@ -15,6 +15,9 @@ class HealthIcon extends FlxSprite
 		antialiasing = true;
 		this.char = char;
 		switch (char) {
+			case 'pixel-amor':
+				loadGraphic(Paths.image('icons/pixel'), true, 150, 150);
+				animation.add('pixel-amor', [0, 0, 0], 0, false, isPlayer);
 			case 'abungus':
 				frames = Paths.getSparrowAtlas('icons/abungus');
 				animation.addByPrefix('abungus', 'icon', 24, true);

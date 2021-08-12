@@ -74,11 +74,11 @@ class DesktopState extends MusicBeatState
 		'options',
 		'stats',
 		'sound test',
-		'unlock all songs'
+		'perfect all songs'
 	];
 
 	var draggingFolder:Bool = false;
-
+	var visualDragFolder:Bool = false;
 	var folder:FlxTypedGroup<FlxSprite>;
 	var folderOffsets:Array<FlxPoint> = [];
 	var folderDrag:FlxExtendedSprite;
@@ -310,15 +310,20 @@ class DesktopState extends MusicBeatState
 		var sprFolder6:FlxExtendedSprite = new FlxExtendedSprite(307.5, 195, sprite6.graphic);
 		folders.add(sprFolder6);
 
-		//var sprFolder7:FlxExtendedSprite = new FlxExtendedSprite(738, 260, sprite7.graphic);
-		//folders.add(sprFolder7);
+		var sprFolder7:FlxExtendedSprite = new FlxExtendedSprite(738, 260, sprite7.graphic);
+		folders.add(sprFolder7);
 
 		if (FlxG.save.data.folders != null) {
 			loadFolders();
 		}
 		for (i in folders) {
 			i.mouseStartDragCallback = function (obj:FlxExtendedSprite, xPos:Int, yPos:Int) {
-				draggingFolder = true;
+				new FlxTimer().start(0.1, function(tmr:FlxTimer)
+				{
+					draggingFolder = true;
+					
+				});
+				visualDragFolder = true;
 				prevPos = i.getPosition();
 			};
 			
@@ -585,6 +590,7 @@ class DesktopState extends MusicBeatState
 		new FlxTimer().start(0.05, function(tmr:FlxTimer)
 		{
 			draggingFolder = false;
+			visualDragFolder = false;
 		});
 		saveFolders();
 	}
@@ -697,7 +703,7 @@ class DesktopState extends MusicBeatState
 				}
 			case 'sound test':
 				openSubState(new MusicPlayerSubstate(spr.getPosition(), songsUnlocked));
-			case 'unlock all songs':
+			case 'perfect all songs':
 				FlxG.save.data.beatWeek = true;
 				FlxG.save.data.unlockedEX = true;
 				FlxG.save.data.beatITB = true;
@@ -712,14 +718,18 @@ class DesktopState extends MusicBeatState
 					for (diff in 0...3) {
 						switch (diff) {
 							case 0:
-								Highscore.setScore(songHighscore + '-easy', 9999999);
+								Highscore.setScore(songHighscore + '-easy', 1);
+								Highscore.saveMisses(songHighscore, 0, 0);
 							case 1:
-								Highscore.setScore(songHighscore, 9999999);
+								Highscore.setScore(songHighscore, 1);
+								Highscore.saveMisses(songHighscore, 0, 1);
 							case 2:
-								Highscore.setScore(songHighscore + '-hard', 9999999);
+								Highscore.setScore(songHighscore + '-hard', 1);
+								Highscore.saveMisses(songHighscore, 0, 2);
 						}
 						
 					}
+					Highscore.saveMisses(songHighscore, 0, 3);
 					FlxG.save.data.unlockedEX = true;
 				}
 				FlxG.resetState();
@@ -765,9 +775,9 @@ class DesktopState extends MusicBeatState
 				}
 			}
 		}
-		if (!FlxG.mouse.overlaps(folders) || draggingFolder || FlxG.mouse.overlaps(folder.members[0]) && folderDrag.visible == true || FlxG.mouse.overlaps(notepad.members[0]) && notepadDrag.visible == true)
+		if (!FlxG.mouse.overlaps(folders) || visualDragFolder || FlxG.mouse.overlaps(folder.members[0]) && folderDrag.visible == true || FlxG.mouse.overlaps(notepad.members[0]) && notepadDrag.visible == true)
 			folderBorder.visible = false;
-		if (draggingFolder) {
+		if (visualDragFolder) {
 			for (i in 0...folders.length) {
 				var spr = folders.members[i];
 				folderLabels.members[i].setPosition(spr.x - 32, spr.y + 80);
