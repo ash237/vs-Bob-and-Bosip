@@ -96,6 +96,13 @@ class KadeEngineData
 		if (FlxG.save.data.unlockedEX == null)
 			FlxG.save.data.unlockedEX = false;
 
+		if (FlxG.save.data.lowDetail == null)
+			FlxG.save.data.lowDetail = false;
+
+		if (FlxG.save.data.playedGO == null)
+			FlxG.save.data.playedGO = false;
+
+		
 		Conductor.recalculateTimings();
 		PlayerSettings.player1.controls.loadKeyBinds();
 		KeyBinds.keyCheck();

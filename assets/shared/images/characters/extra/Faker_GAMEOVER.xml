@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Faker_GAMEOVER.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF die 0 instance 10000" x="0" y="0" width="407" height="413" frameX="-307" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10001" x="412" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10002" x="412" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10003" x="1131" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10004" x="1131" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10005" x="1850" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10006" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10007" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10008" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10009" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10010" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10011" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10012" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10013" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10014" x="2569" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10015" x="3288" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10016" x="3288" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10017" x="3288" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10018" x="4007" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10019" x="4007" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10020" x="4726" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10021" x="4726" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10022" x="5445" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10023" x="5445" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10024" x="6164" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10025" x="6164" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10026" x="6883" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10027" x="6883" y="0" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10028" x="0" y="418" width="714" height="424" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10029" x="0" y="418" width="714" height="424" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10030" x="719" y="418" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10031" x="719" y="418" width="714" height="413" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10032" x="1438" y="418" width="714" height="434" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10033" x="1438" y="418" width="714" height="434" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10034" x="2157" y="418" width="714" height="425" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10035" x="2157" y="418" width="714" height="425" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10036" x="2876" y="418" width="714" height="440"/>
+	<SubTexture name="BF die 0 instance 10037" x="3595" y="418" width="714" height="440"/>
+	<SubTexture name="BF die 0 instance 10038" x="4314" y="418" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10039" x="5033" y="418" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10040" x="5752" y="418" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10041" x="6471" y="418" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10042" x="7190" y="418" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10043" x="0" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10044" x="719" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10045" x="1438" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10046" x="2157" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10047" x="2876" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10048" x="3595" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10049" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10050" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10051" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10052" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10053" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10054" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10055" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10056" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die 0 instance 10057" x="4314" y="863" width="714" height="438" frameX="0" frameY="0" frameWidth="714" frameHeight="440"/>
+	<SubTexture name="BF die instance 10000" x="5033" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10001" x="5752" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10002" x="5752" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10003" x="6471" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10004" x="6471" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10005" x="7190" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10006" x="7190" y="863" width="714" height="438"/>
+	<SubTexture name="BF die instance 10007" x="0" y="1306" width="407" height="438" frameX="-307" frameY="0" frameWidth="714" frameHeight="438"/>
+	<SubTexture name="BF die instance 10008" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10009" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10010" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10011" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10012" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10013" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10014" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10015" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10016" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10017" x="1131" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10018" x="1850" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10019" x="1850" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10020" x="2569" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10021" x="2569" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10022" x="3288" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10023" x="3288" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10024" x="4007" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10025" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10026" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10027" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10028" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10029" x="412" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10030" x="4726" y="1306" width="407" height="438" frameX="-307" frameY="0" frameWidth="714" frameHeight="438"/>
+	<SubTexture name="BF die instance 10031" x="5138" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10032" x="5138" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die instance 10033" x="5138" y="1306" width="714" height="438"/>
+	<SubTexture name="BF die not instance 10000" x="5857" y="1306" width="714" height="438" frameX="0" frameY="-64" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10001" x="6576" y="1306" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10002" x="7295" y="1306" width="714" height="502"/>
+	<SubTexture name="BF die not instance 10003" x="0" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10004" x="719" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10005" x="1438" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10006" x="2157" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10007" x="2876" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10008" x="3595" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10009" x="4314" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10010" x="5033" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10011" x="5752" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10012" x="6471" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10013" x="7190" y="1813" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10014" x="0" y="2290" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10015" x="719" y="2290" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+	<SubTexture name="BF die not instance 10016" x="1438" y="2290" width="714" height="472" frameX="0" frameY="-30" frameWidth="714" frameHeight="502"/>
+</TextureAtlas>

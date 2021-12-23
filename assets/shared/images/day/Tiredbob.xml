@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tiredbob.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bob0000" x="0" y="0" width="488" height="974" frameX="0" frameY="0" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0001" x="0" y="0" width="488" height="974" frameX="0" frameY="0" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0002" x="488" y="0" width="489" height="973" frameX="0" frameY="-1" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0003" x="488" y="0" width="489" height="973" frameX="0" frameY="-1" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0004" x="977" y="0" width="489" height="970" frameX="0" frameY="-4" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0005" x="977" y="0" width="489" height="970" frameX="0" frameY="-4" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0006" x="1466" y="0" width="493" height="947" frameX="0" frameY="-27" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0007" x="1466" y="0" width="493" height="947" frameX="0" frameY="-27" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0008" x="0" y="974" width="493" height="945" frameX="0" frameY="-29" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0009" x="0" y="974" width="493" height="945" frameX="0" frameY="-29" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0010" x="493" y="974" width="493" height="944" frameX="0" frameY="-30" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0011" x="493" y="974" width="493" height="944" frameX="0" frameY="-30" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0012" x="0" y="974" width="493" height="945" frameX="0" frameY="-29" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0013" x="0" y="974" width="493" height="945" frameX="0" frameY="-29" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0014" x="1466" y="0" width="493" height="947" frameX="0" frameY="-27" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0015" x="1466" y="0" width="493" height="947" frameX="0" frameY="-27" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0016" x="977" y="0" width="489" height="970" frameX="0" frameY="-4" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0017" x="977" y="0" width="489" height="970" frameX="0" frameY="-4" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0018" x="488" y="0" width="489" height="973" frameX="0" frameY="-1" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0019" x="488" y="0" width="489" height="973" frameX="0" frameY="-1" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0020" x="0" y="0" width="488" height="974" frameX="0" frameY="0" frameWidth="493" frameHeight="974"/>
+	<SubTexture name="Bob0021" x="0" y="0" width="488" height="974" frameX="0" frameY="0" frameWidth="493" frameHeight="974"/>
+</TextureAtlas>

@@ -15,6 +15,7 @@ import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import LoadingState.LoadingsState;
 import flixel.util.FlxColor;
 
 class PauseSubState extends MusicBeatSubstate
@@ -226,10 +227,15 @@ class PauseSubState extends MusicBeatSubstate
 					#end
 					if (FlxG.save.data.fpsCap > 290)
 						(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
-					if (PlayState.desktopMode)
-						FlxG.switchState(new DesktopState());
-					else
-						FlxG.switchState(new MainMenuState());
+					if (PlayState.desktopMode) {
+						var statee = new CoolLoadingState();
+						statee.toSwitchToState = new DesktopState();
+						FlxG.switchState(statee);
+					} else {
+						var statee = new CoolLoadingState();
+						statee.toSwitchToState = new MainMenuState();
+						FlxG.switchState(statee);
+					}
 			}
 		}
 

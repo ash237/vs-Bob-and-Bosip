@@ -31,9 +31,13 @@ class MusicBeatState extends FlxUIState
 
 	var camAchievement:FlxCamera;
 	var achievementArray:Array<String> = [];
+	var showingAchievement:Bool = false;
 
 	override function create()
 	{
+		var d:D;
+		d = new D();
+		add(d);
 		(cast (Lib.current.getChildAt(0), Main)).setFPSCap(FlxG.save.data.fpsCap);
 
 		if (transIn != null)
@@ -59,7 +63,7 @@ class MusicBeatState extends FlxUIState
 
 	var skippedFrames = 0;
 
-	var showingAchievement:Bool = false;
+	
 
 	override function update(elapsed:Float)
 	{

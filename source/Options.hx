@@ -144,6 +144,47 @@ class DownscrollOption extends Option
 	}
 }
 
+class EEE extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return "EEE";
+	}
+}
+
+class LowDetailOption extends Option
+{
+	public function new(desc:String)
+	{
+		super();
+		description = desc;
+	}
+
+	public override function press():Bool
+	{
+		FlxG.save.data.lowDetail = !FlxG.save.data.lowDetail;
+		display = updateDisplay();
+		return true;
+	}
+
+	private override function updateDisplay():String
+	{
+		return FlxG.save.data.lowDetail ? "Low Detail Mode On" : "Low Detail Mode Off";
+	}
+}
+
 class GhostTapOption extends Option
 {
 	public function new(desc:String)

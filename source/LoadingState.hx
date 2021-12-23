@@ -12,9 +12,72 @@ import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
 import lime.utils.AssetLibrary;
 import lime.utils.AssetManifest;
+import flixel.addons.transition.FlxTransitionableState;
 
 import haxe.io.Path;
 
+
+class LoadingsState extends MusicBeatSubstate
+{
+	public var instantAlpha:Bool = false;
+	var loadingart:FlxSprite;
+	override function create()
+	{
+		FlxG.camera.zoom = 0;
+		loadingart = new FlxSprite(0, 0).loadGraphic(Paths.image('loading/' + FlxG.random.int(0, 58)));
+		loadingart.setGraphicSize(-1, FlxG.height);
+		loadingart.updateHitbox();
+		loadingart.alpha = 0.1;
+		loadingart.scrollFactor.set(0, 0);
+		loadingart.screenCenter();
+		loadingart.antialiasing = true;
+		add(loadingart);
+
+		add(loadingart);
+		trace('IT LOADING!');
+
+		var blackBar = new FlxSprite(0, 573).loadGraphic(Paths.image('loading/extra/blackbar'));
+		blackBar.antialiasing = true;
+		add(blackBar);
+
+		var tipPrefix:String = 'funFact';
+		var tipMax:Int = 19;
+		
+		if (FlxG.random.bool(50)) {
+			tipPrefix = 'proTip';
+			tipMax = 11;
+		}
+
+		var tip:FlxSprite = new FlxSprite(0, 590).loadGraphic(Paths.image('loading/extra/' + tipPrefix + '/' + FlxG.random.int(1, tipMax)));
+		if (FlxG.random.bool(0.5))
+			tip.loadGraphic(Paths.image('loading/extra/proTip/path/light'));
+		tip.screenCenter(XY);
+		tip.y += 299;
+		add(tip);
+		tip.antialiasing = true;
+
+
+		var theText:FlxSprite = new FlxSprite(0, 549).loadGraphic(Paths.image('loading/extra/' + tipPrefix + '/text'));
+		add(theText);
+		theText.screenCenter(X);
+		theText.antialiasing = true;
+
+		var bar:FlxSprite = new FlxSprite(0, 597).loadGraphic(Paths.image('loading/extra/bar'));
+		bar.screenCenter(X);
+		add(bar);
+		bar.antialiasing = true;
+		super.create();
+	}
+
+	override function update(elapsed:Float)
+	{
+		super.update(elapsed);
+		loadingart.alpha += elapsed;
+		if (instantAlpha)
+			loadingart.alpha = 1;
+	}
+
+}
 class LoadingState extends MusicBeatState
 {
 	inline static var MIN_TIME = 1.0;
@@ -26,6 +89,8 @@ class LoadingState extends MusicBeatState
 	var logo:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft = false;
+	var loadingart:FlxSprite;
+	//Thinking....
 	
 	function new(target:FlxState, stopMusic:Bool)
 	{
@@ -33,10 +98,12 @@ class LoadingState extends MusicBeatState
 		this.target = target;
 		this.stopMusic = stopMusic;
 	}
+
+
 	
 	override function create()
 	{
-		logo = new FlxSprite(-150, -100);
+		/*logo = new FlxSprite(-150, -100);
 		logo.frames = Paths.getSparrowAtlas('logoBumpin');
 		logo.antialiasing = true;
 		logo.animation.addByPrefix('bump', 'logo bumpin', 24);
@@ -51,7 +118,18 @@ class LoadingState extends MusicBeatState
 		gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		gfDance.antialiasing = true;
 		add(gfDance);
-		add(logo);
+		add(logo);*/
+
+		loadingart = new FlxSprite(0, 0).loadGraphic(Paths.image('loading/' + FlxG.random.int(0, 58)));
+		loadingart.setGraphicSize(-1, FlxG.height);
+		loadingart.updateHitbox();
+		loadingart.alpha = 0.1;
+		loadingart.scrollFactor.set(0, 0);
+		loadingart.screenCenter();
+		loadingart.antialiasing = true;
+		add(loadingart);
+
+
 		
 		initSongsManifest().onComplete
 		(
@@ -68,11 +146,12 @@ class LoadingState extends MusicBeatState
 				else
 					checkLibrary("tutorial");
 				
-				var fadeTime = 0.5;
+				var fadeTime = 1.5;
 				FlxG.camera.fade(FlxG.camera.bgColor, fadeTime, true);
 				new FlxTimer().start(fadeTime + MIN_TIME, function(_) introComplete());
 			}
 		);
+		super.create();
 	}
 	
 	function checkLoadSong(path:String)
@@ -144,9 +223,21 @@ class LoadingState extends MusicBeatState
 		return Paths.voices(PlayState.SONG.song);
 	}
 	
-	inline static public function loadAndSwitchState(target:FlxState, stopMusic = false)
+	inline static public function loadAndSwitchState(target:FlxState, stopMusic = false, ?waitForLoad:Bool = false)
 	{
-		FlxG.switchState(getNextState(target, stopMusic));
+		var waitTime = 0.0;
+		if (waitForLoad)
+		{
+			FlxG.sound.music.fadeOut(1, 0);
+			waitTime = 1.6;
+		}
+
+		FlxTransitionableState.skipNextTransIn = true;
+		new FlxTimer().start(waitTime, function(tmr:FlxTimer) {
+			
+			FlxG.switchState(getNextState(target, stopMusic));
+		});
+		
 	}
 	
 	static function getNextState(target:FlxState, stopMusic = false):FlxState

@@ -24,7 +24,7 @@ class OptionsSubState extends MusicBeatSubstate
 	var selector:FlxText;
 	var curSelected:Int = 0;
 	
-	var curPage:Int = 0;
+	var curCat:Int = 0;
 	var pageMax:Int = 0;
 
 	var rightArrow:FlxSprite;
@@ -53,6 +53,7 @@ class OptionsSubState extends MusicBeatSubstate
 			new DFJKOption(controls),
 			new DownscrollOption("Change the layout of the strumline."),
 			new GhostTapOption("Ghost Tapping is when you tap a direction and it doesn't give you a miss."),
+			new LowDetailOption('Optimizes the game to run on lower end computers!'),
 			new Judgement("Customize your Hit Timings (LEFT or RIGHT)"),
 			#if desktop
 			new FPSCapOption("Cap your FPS"),
@@ -73,7 +74,8 @@ class OptionsSubState extends MusicBeatSubstate
 			new FlashingLightsOption("Toggle flashing lights that can cause epileptic seizures and strain."),
 			new WatermarkOption("Enable and disable all watermarks from the engine."),
 			new BotPlay("Showcase your charts and mods with autoplay."),
-			new EraseSaveData("Erase ALL your save data. WARNING: this will close your game.")
+			new EraseSaveData("Erase ALL your save data. WARNING: this will close your game."),
+			new EEE("Scroll down in the loading gallery!"),
 		])
 		
 	];
@@ -418,6 +420,7 @@ class OptionsSubState extends MusicBeatSubstate
 
 		for (i in 0...currentSelectedCat.getOptions().length)
 		{
+			
 			var controlBar = new FlxSprite(170 + (FlxG.width * (Math.floor(i / 5))), 97 + (102 * (i % 5))).makeGraphic(900, 100, FlxColor.BLACK);
 			controlBar.alpha = 0;
 			grpBars.add(controlBar);
@@ -425,11 +428,16 @@ class OptionsSubState extends MusicBeatSubstate
 			var controlLabel = new FlxSprite(170 + (FlxG.width * (Math.floor(i / 5))), 97 + (102 * (i % 5))).loadGraphic(Paths.image('desktop/settings/text/' + currentSelectedCat.getOptions()[i].getDisplay()));
 			grpControls.add(controlLabel);
 
-			
+			if (i == currentSelectedCat.getOptions().length - 1 && cat == 2) {
+				controlLabel.setPosition(170 + (FlxG.width * 2), 97 + (102 * 1));
+				controlBar.setPosition(170 + (FlxG.width * 2), 97 + (102 * 1));
+			}
 			pageMax = Math.floor(i / 5);
+			if (cat == 2)
+				pageMax++;
 		}
 
-		curPage = 0;
+		curCat = 0;
 
 		if (!isCat) {
 			rightArrow = new FlxSprite(1126, 613).loadGraphic(Paths.image('desktop/settings/exitButton'));
@@ -445,16 +453,16 @@ class OptionsSubState extends MusicBeatSubstate
 	function changePage(change:Int = 0) 
 	{
 		acceptInput = false;
-		var prevPage = curPage; 
-		curPage += change;
-		if (curPage < 0) {
-			curPage = 0;
+		var prevPage = curCat; 
+		curCat += change;
+		if (curCat < 0) {
+			curCat = 0;
 			acceptInput = true;
-		} else if (curPage > pageMax) {
-			curPage = pageMax;
+		} else if (curCat > pageMax) {
+			curCat = pageMax;
 			acceptInput = true;
 		}
-		if (prevPage != curPage) {
+		if (prevPage != curCat) {
 			for (i in grpControls) {
 				FlxTween.tween(i, {x: i.x + FlxG.width * -change}, 1, {
 					ease: FlxEase.quadOut,

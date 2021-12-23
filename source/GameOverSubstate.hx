@@ -27,14 +27,21 @@ class GameOverSubstate extends MusicBeatSubstate
 				daBf = 'bf-pixel-dead';
 			case 'bf-ex':
 				daBf = 'bf-ex';
+			case 'bf-ex-new':
+				daBf = 'bf-ex-new';
 			case 'bf-night-ex':
-				daBf = 'bf-ex';
-			case 'bf-worriedbob':
+				daBf = 'bf-ex-new';
+			case 'bf-worriedbob' | 'bf-bob-george':
 				daBf = 'bf-worriedbob';
+			case 'bf-sans':
+				daBf = 'bf-sans';
+			case 'bf-sans-ex':
+				daBf = 'bf-sans-ex';
 			default:
 				daBf = 'bf';
 		}
 
+		
 		super();
 
 		Conductor.songPosition = 0;

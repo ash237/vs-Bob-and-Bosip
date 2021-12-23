@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Frisk.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Frisk0000" x="3" y="3" width="341" height="410"/>
+	<SubTexture name="Frisk0001" x="348" y="3" width="341" height="410"/>
+	<SubTexture name="Frisk0002" x="693" y="3" width="339" height="410" frameX="-1" frameY="0" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0003" x="1036" y="3" width="336" height="409" frameX="-2" frameY="0" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0004" x="1376" y="3" width="334" height="406" frameX="-3" frameY="-2" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0005" x="3" y="417" width="332" height="406" frameX="-4" frameY="-2" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0006" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0007" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0008" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0009" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0010" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0011" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0012" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+	<SubTexture name="Frisk0013" x="339" y="417" width="332" height="405" frameX="-4" frameY="-3" frameWidth="341" frameHeight="410"/>
+</TextureAtlas>

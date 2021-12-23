@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jghostending.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jghostending0000" x="10" y="10" width="776" height="913" frameX="-172" frameY="-6" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0001" x="796" y="10" width="780" height="913" frameX="-168" frameY="-6" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0002" x="1586" y="10" width="785" height="918" frameX="-162" frameY="0" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0003" x="2381" y="10" width="805" height="918" frameX="-142" frameY="0" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0004" x="3196" y="10" width="856" height="913" frameX="-93" frameY="-5" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0005" x="4062" y="10" width="868" height="913" frameX="-81" frameY="-5" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0006" x="4940" y="10" width="927" height="909" frameX="-23" frameY="-9" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0007" x="5877" y="10" width="940" height="909" frameX="-10" frameY="-9" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0008" x="6827" y="10" width="943" height="904" frameX="-5" frameY="-14" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0009" x="10" y="938" width="945" height="904" frameX="-3" frameY="-14" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0010" x="965" y="938" width="949" height="903" frameX="0" frameY="-15" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0011" x="1924" y="938" width="949" height="903" frameX="0" frameY="-15" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0012" x="2883" y="938" width="947" height="903" frameX="-3" frameY="-15" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0013" x="3840" y="938" width="945" height="903" frameX="-5" frameY="-15" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0014" x="4795" y="938" width="939" height="905" frameX="-10" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0015" x="5744" y="938" width="926" height="905" frameX="-23" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0016" x="6680" y="938" width="866" height="905" frameX="-81" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0017" x="10" y="1853" width="854" height="905" frameX="-93" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0018" x="874" y="1853" width="806" height="905" frameX="-142" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0019" x="1690" y="1853" width="786" height="905" frameX="-162" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0020" x="2486" y="1853" width="782" height="905" frameX="-168" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0021" x="3278" y="1853" width="778" height="905" frameX="-172" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0022" x="4066" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0023" x="4854" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0024" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0025" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0026" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0027" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0028" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0029" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0030" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0031" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0032" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0033" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0034" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0035" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0036" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0037" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0038" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+	<SubTexture name="Jghostending0039" x="5642" y="1853" width="778" height="905" frameX="-171" frameY="-13" frameWidth="950" frameHeight="919"/>
+</TextureAtlas>

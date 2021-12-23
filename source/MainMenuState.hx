@@ -93,8 +93,10 @@ class MainMenuState extends MusicBeatState
 	var character2:Character;
 	var targetX2:Int;
 	var useCharacter2:Bool = false;
+	var useCharacter2alt:Bool = false;
 	override function create()
 	{
+		
 		#if windows
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -123,104 +125,16 @@ class MainMenuState extends MusicBeatState
 			}
 			excludeStuff.push(10);
 		}
+		if (!FlxG.save.data.playedGO)
+			excludeStuff.push(11);
 	
 		grpBackgrounds = new FlxTypedGroup<FlxSprite>();
 		add(grpBackgrounds);
 
 		grpLogo = new FlxTypedGroup<FlxSprite>();
 		add(grpLogo);
-		var random:Int = 0;
+		rerollCharacter(excludeStuff);
 		
-		
-		random = FlxG.random.int(0,10, excludeStuff);
-		if (random == prevCharacter) {
-			random++;
-			if (random > 10)
-				random = 0;
-		}
-		
-		if (FreeplayState.bpm > 0 && FreeplayState.isEX && random >= 0 && random <= 2 || FreeplayState.bpm > 0 && FreeplayState.isEX && random == 9) {
-			switch (random) {
-				case 9:
-					character = new Character(2000, 150, 'amorex');
-					targetX = 700;
-					curCharacter = 'amor';
-					colorPalette = 'normal';
-				case 2:
-					character = new Character(2000, 180, 'bobex');
-					targetX = 800;
-					curCharacter = 'bob';
-					colorPalette = 'normal';
-				case 1:
-					character = new Character(2000, 150, 'bosipex');
-					targetX = 820;
-					curCharacter = 'bosip';
-					colorPalette = 'normal';
-				case 0:
-					character = new Character(2000, 400, 'bf-ex', true);
-					targetX = 760;
-					curCharacter = 'bf';
-					colorPalette = 'normal';
-		}
-		} else {
-			switch (random) {
-				case 10:
-					character = new Character(2000, 300, 'cerberus');
-					targetX = 650;
-					curCharacter = 'cerberus';
-					colorPalette = 'itb';
-				case 9:
-					character = new Character(2000, 150, 'amor');
-					targetX = 700;
-					curCharacter = 'amor';
-					colorPalette = 'normal';
-				case 8:
-					character = new Character(2000, 300, 'gloopy');
-					targetX = 700;
-					curCharacter = 'gloopy';
-					colorPalette = 'gloopy';
-				case 7:
-					character = new Character(2000, 150, 'jghost');
-					targetX = 700;
-					curCharacter = 'jghost';
-					colorPalette = 'itb';
-				case 6:
-					character = new Character(2000, 180, 'bluskys');
-					targetX = 750;
-					curCharacter = 'bluskys';
-					colorPalette = 'itb';
-				case 5:
-					character = new Character(2000, 180, 'ash');
-					targetX = 800;
-					curCharacter = 'ash';
-					colorPalette = 'itb';
-				case 4:
-					character = new Character(2000, 450, 'cerbera');
-					targetX = 800;
-					curCharacter = 'cerbera';
-					colorPalette = 'itb';
-				case 3:
-					character = new Character(2000, 180, 'minishoey');
-					targetX = 800;
-					curCharacter = 'minishoey';
-					colorPalette = 'itb';
-				case 2:
-					character = new Character(2000, 180, 'bob');
-					targetX = 800;
-					curCharacter = 'bob';
-					colorPalette = 'normal';
-				case 1:
-					character = new Character(2000, 150, 'bosip');
-					targetX = 820;
-					curCharacter = 'bosip';
-					colorPalette = 'normal';
-				case 0:
-					character = new Character(2000, 400, 'bf', true);
-					targetX = 760;
-					curCharacter = 'bf';
-					colorPalette = 'normal';
-			}
-		}
 		easterEggChance = FlxG.random.int(0, 50);
 		var deadrontwigger:Bool = false;
 		var pctrigger:Bool = false;
@@ -254,7 +168,7 @@ class MainMenuState extends MusicBeatState
 			colorPalette = 'gloopy';
 			deadrontwigger = true;
 		}
-		prevCharacter = random;
+		
 		
 		if (showRon) {
 			character = new Character(2000, -50, 'deadron');
@@ -266,7 +180,14 @@ class MainMenuState extends MusicBeatState
 		new FlxTimer().start(0.5, function(tmr:FlxTimer)
 		{
 			if (firsttimeSplitEX) {
-				achievementArray.push('unlocked 8-bit split in the sound test!');
+				if (!FlxG.save.data.beatSplitEX) {
+					achievementArray.push('unlocked 8-bit split in the sound test!');
+					FlxG.save.data.beatSplitEX = true;
+				}
+				if (!FlxG.save.data.beatSplitEX2) {
+					achievementArray.push('unlocked oblique fracture in the desktop!');
+					FlxG.save.data.beatSplitEX2 = true;
+				}
 				firsttimeSplitEX = false;
 			}
 			if (firsttimeBob) {
@@ -445,28 +366,52 @@ class MainMenuState extends MusicBeatState
 				lerpArrow = true;
 			}
 		});
-		FlxTween.tween(character, {x: targetX}, 1, {
-			ease: FlxEase.quadOut,
-			startDelay:0.25,
-			onComplete: function(twn:FlxTween) {
-				if (deadrontwigger)
-					FlxG.sound.play(Paths.sound('third_scream', 'shared'), 0.5);
-				if (pctrigger)
-					FlxG.sound.play(Paths.sound('MIRAGE_95_x2', 'shared'), 0.5);
-
-				switch (curCharacter) {
-					case 'cj':
-						character.playAnim('haha', true);
-						FlxG.sound.play(Paths.sound('cjhaha', 'shared'), 0.6);
-						character.holdTimer = 0;	
+		if (!useCharacter2alt) {
+			FlxTween.tween(character, {x: targetX}, 1, {
+				ease: FlxEase.quadOut,
+				startDelay:0.25,
+				onComplete: function(twn:FlxTween) {
+					if (deadrontwigger)
+						FlxG.sound.play(Paths.sound('third_scream', 'shared'), 0.5);
+					if (pctrigger)
+						FlxG.sound.play(Paths.sound('MIRAGE_95_x2', 'shared'), 0.5);
+	
+					switch (curCharacter) {
+						case 'cj':
+							character.playAnim('haha', true);
+							FlxG.sound.play(Paths.sound('cjhaha', 'shared'), 0.6);
+							character.holdTimer = 0;	
+					}
+	
+					selectedSomethin = false;
+					inCredits = false;
 				}
+			});
+		} else {
+			FlxTween.tween(character2, {x: targetX2}, 1, {
+				ease: FlxEase.quadOut,
+				startDelay:0.25,
+				onComplete: function(twn:FlxTween) {
+					if (deadrontwigger)
+						FlxG.sound.play(Paths.sound('third_scream', 'shared'), 0.5);
+					if (pctrigger)
+						FlxG.sound.play(Paths.sound('MIRAGE_95_x2', 'shared'), 0.5);
+	
+					switch (curCharacter) {
+						case 'cj':
+							character.playAnim('haha', true);
+							FlxG.sound.play(Paths.sound('cjhaha', 'shared'), 0.6);
+							character.holdTimer = 0;	
+					}
+	
+					selectedSomethin = false;
+					inCredits = false;
+				}
+			});
+		}
+		
 
-				selectedSomethin = false;
-				inCredits = false;
-			}
-		});
-
-		if (useCharacter2) {
+		if (useCharacter2 || useCharacter2alt) {
 			FlxTween.tween(character2, {x: targetX2}, 1, {
 				ease: FlxEase.quadOut,
 				startDelay:0.25,
@@ -577,8 +522,188 @@ class MainMenuState extends MusicBeatState
 
 	var selectedSomethin:Bool = false;
 
+	function rerollCharacter(excludeArray:Array<Int>) {
+		var random:Int = 0;
+		
+		
+		random = FlxG.random.int(0,12, excludeArray);
+		if (random == prevCharacter) {
+			random++;
+			if (random > 12)
+				random = 0;
+		}
+		prevCharacter = random;
+		if (FreeplayState.bpm > 0 && FreeplayState.isEX) {
+			switch (random) {
+				case 12:
+					character = new Character(2000, 350, 'sans-ex');
+					targetX = 750;
+					curCharacter = 'sans';
+					colorPalette = 'normal';
+				case 11:
+					character = new Character(2000, 350, 'deadbf');
+					targetX = 760;
+					curCharacter = 'deadbf';
+					colorPalette = 'normal';
+				case 10:
+					character = new Character(2000, 50, 'cerberus-ex');
+					targetX = 650;
+					curCharacter = 'cerberus';
+					colorPalette = 'itb';
+				case 9:
+					character = new Character(2000, 150, 'amor-ex');
+					targetX = 700;
+					curCharacter = 'amor';
+					colorPalette = 'normal';
+				case 8:
+					character = new Character(2000, 300, 'bob-cool-ex');
+					targetX = 700;
+					curCharacter = 'gloopy';
+					colorPalette = 'gloopy';
+				case 7:
+					character = new Character(2000, 180, 'bluskys-ex');
+					targetX = 750;
+					curCharacter = 'bluskys';
+					colorPalette = 'itb';
+				case 6:
+					character = new Character(2000, 180, 'bluskys-ex');
+					targetX = 750;
+					curCharacter = 'bluskys';
+					colorPalette = 'itb';
+				case 5:
+					character = new Character(2000, 180, 'ash-ex');
+					targetX = 800;
+					curCharacter = 'ash';
+					colorPalette = 'itb';
+				case 4:
+					character = new Character(2000, 300, 'cerbera-ex');
+					targetX = 790;
+					curCharacter = 'cerbera';
+					colorPalette = 'itb';
+				case 3:
+					character = new Character(2000, 180, 'minishoey-ex');
+					targetX = 740;
+					curCharacter = 'minishoey';
+					colorPalette = 'itb';
+				case 2:
+					character = new Character(2000, 180, 'bob-ex');
+					targetX = 800;
+					curCharacter = 'bob';
+					colorPalette = 'normal';
+				case 1:
+					character = new Character(2000, 150, 'bosip-ex');
+					targetX = 820;
+					curCharacter = 'bosip';
+					colorPalette = 'normal';
+				case 0:
+					character = new Character(2000, 400, 'bf-ex-new', true);
+					targetX = 760;
+					curCharacter = 'bf';
+					colorPalette = 'normal';
+		}
+		} else {
+			switch (random) {
+				case 12:
+					character = new Character(2000, 350, 'sans');
+					targetX = 750;
+					curCharacter = 'sans';
+					colorPalette = 'normal';
+				case 11:
+					rerollCharacter(excludeArray);
+				case 10:
+					character = new Character(2000, 300, 'cerberus');
+					targetX = 650;
+					curCharacter = 'cerberus';
+					colorPalette = 'itb';
+				case 9:
+					character = new Character(2000, 150, 'amor');
+					targetX = 700;
+					curCharacter = 'amor';
+					colorPalette = 'normal';
+				case 8:
+					character = new Character(2000, 300, 'gloopy');
+					targetX = 700;
+					curCharacter = 'gloopy';
+					colorPalette = 'gloopy';
+				case 7:
+					character = new Character(2000, 150, 'jghost');
+					targetX = 700;
+					curCharacter = 'jghost';
+					colorPalette = 'itb';
+				case 6:
+					character = new Character(2000, 180, 'bluskys');
+					targetX = 750;
+					curCharacter = 'bluskys';
+					colorPalette = 'itb';
+				case 5:
+					character = new Character(2000, 180, 'ash');
+					targetX = 800;
+					curCharacter = 'ash';
+					colorPalette = 'itb';
+				case 4:
+					character = new Character(2000, 450, 'cerbera');
+					targetX = 800;
+					curCharacter = 'cerbera';
+					colorPalette = 'itb';
+				case 3:
+					character = new Character(2000, 180, 'minishoey');
+					targetX = 800;
+					curCharacter = 'minishoey';
+					colorPalette = 'itb';
+				case 2:
+					character = new Character(2000, 180, 'bob');
+					targetX = 800;
+					curCharacter = 'bob';
+					colorPalette = 'normal';
+				case 1:
+					character = new Character(2000, 150, 'bosip');
+					targetX = 820;
+					curCharacter = 'bosip';
+					colorPalette = 'normal';
+				case 0:
+					character = new Character(2000, 400, 'bf', true);
+					targetX = 760;
+					curCharacter = 'bf';
+					colorPalette = 'normal';
+			}
+		}
+	}
 	override function update(elapsed:Float)
 	{
+		if (character.curCharacter == 'jghost-ex') {
+			switch (character2.animation.curAnim.name) {	
+				case 'idle':
+					switch (character2.animation.curAnim.curFrame) {
+						case 0 | 1:
+							character.setPosition(-280, 0);
+						case 2 | 3:
+							character.setPosition(-281, 0);
+						case 4 | 5:
+							character.setPosition(-289, -5);
+						case 7 | 6:
+							character.setPosition(-290, -8);
+						case 9 | 8:
+							character.setPosition(-291, -8);
+						default:
+							character.setPosition(-291, -8);
+					}
+				case 'singUP' | 'singDOWN' | 'singLEFT' | 'singRIGHT':
+					switch (character2.animation.curAnim.curFrame) {
+						case 0 | 1:
+							character.setPosition(-297, -8);
+						case 2 | 3:
+							character.setPosition(-295, -6);
+						case 4 | 5:
+							character.setPosition(-297, -7);
+						case 7 | 6:
+							character.setPosition(-298, -8);
+						case 9 | 8:
+							character.setPosition(-297, -7);
+						default:
+							character.setPosition(-297, -7);
+					}
+			}
+		}
 		if (FreeplayState.bpm > 0) {
 			
 			if (character.animation.curAnim.name.startsWith('sing')) {
@@ -767,7 +892,14 @@ class MainMenuState extends MusicBeatState
 		
 		if (!character.animation.curAnim.name.startsWith('sing') && character.animation.curAnim.name != 'haha')
 			character.dance();
+
+		if (!character.animation.curAnim.name.startsWith('sing') && character.animation.curAnim.name != 'haha')
+			character.dance();
 		if (useCharacter2) {
+			if (!character2.animation.curAnim.name.startsWith('sing') && character2.animation.curAnim.name != 'haha')
+				character2.dance();
+		}
+		if (useCharacter2alt) {
 			if (!character2.animation.curAnim.name.startsWith('sing') && character2.animation.curAnim.name != 'haha')
 				character2.dance();
 		}
@@ -815,11 +947,19 @@ class MainMenuState extends MusicBeatState
 			});
 			
 		}
-		FlxTween.tween(character, {x: character.x + 50}, 0.6, {ease: FlxEase.quadOut});
-		FlxTween.tween(character, {x: character.x + 2000}, 0.6, {
-			ease: FlxEase.quadOut,
-			startDelay:0.6
-		});
+		if (!useCharacter2alt) {
+			FlxTween.tween(character, {x: character.x + 50}, 0.6, {ease: FlxEase.quadOut});
+			FlxTween.tween(character, {x: character.x + 2000}, 0.6, {
+				ease: FlxEase.quadOut,
+				startDelay:0.6
+			});
+		} else {
+			FlxTween.tween(character2, {x: character2.x + 50}, 0.6, {ease: FlxEase.quadOut});
+			FlxTween.tween(character2, {x: character2.x + 2000}, 0.6, {
+				ease: FlxEase.quadOut,
+				startDelay:0.6
+			});
+		}
 		if (useCharacter2) {
 			FlxTween.tween(character2, {x: character2.x + 50}, 0.6, {ease: FlxEase.quadOut});
 			FlxTween.tween(character2, {x: character2.x + 2000}, 0.6, {

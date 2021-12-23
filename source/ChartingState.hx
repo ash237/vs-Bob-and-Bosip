@@ -121,8 +121,9 @@ class ChartingState extends MusicBeatState
 				validScore: false
 			};
 		}
-		if (effectsMode == true)
-			_song = PlayState.effectSONG;
+		if (effectsMode == true) {
+			_song.notes = PlayState.effectSONG.notes;
+		}
 		gridBG = FlxGridOverlay.create(GRID_SIZE, GRID_SIZE, GRID_SIZE * 8, GRID_SIZE * 16);
 		add(gridBG);
 
@@ -919,7 +920,7 @@ class ChartingState extends MusicBeatState
 		{
 			lastSection = curSection;
 
-			if (FlxG.keys.pressed.SHIFT)
+			if (effectsMode)
 				PlayState.effectSONG = _song;
 			FlxG.sound.music.stop();
 			vocals.stop();

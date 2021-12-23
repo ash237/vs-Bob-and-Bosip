@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ElPepe.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mr Krab0000" x="0" y="0" width="856" height="426" frameX="-3" frameY="-169" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0001" x="0" y="0" width="856" height="426" frameX="-3" frameY="-169" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0002" x="856" y="0" width="831" height="436" frameX="-14" frameY="-159" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0003" x="856" y="0" width="831" height="436" frameX="-14" frameY="-159" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0004" x="1687" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0005" x="1687" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0006" x="2285" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0007" x="2285" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0008" x="2883" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0009" x="2883" y="0" width="598" height="595" frameX="-119" frameY="0" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0010" x="3481" y="0" width="598" height="594" frameX="-119" frameY="-1" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0011" x="3481" y="0" width="598" height="594" frameX="-119" frameY="-1" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0012" x="0" y="595" width="598" height="593" frameX="-119" frameY="-2" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0013" x="0" y="595" width="598" height="593" frameX="-119" frameY="-2" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0014" x="598" y="595" width="869" height="424" frameX="-3" frameY="-172" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0015" x="598" y="595" width="869" height="424" frameX="-3" frameY="-172" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0016" x="1467" y="595" width="871" height="421" frameX="-2" frameY="-174" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0017" x="1467" y="595" width="871" height="421" frameX="-2" frameY="-174" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0018" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0019" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0020" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0021" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0022" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+	<SubTexture name="Mr Krab0023" x="2338" y="595" width="875" height="419" frameX="0" frameY="-176" frameWidth="875" frameHeight="596"/>
+</TextureAtlas>

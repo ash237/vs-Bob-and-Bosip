@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CerbEX.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cerb Sing Note DOWN0000" x="10" y="10" width="343" height="337" frameX="0" frameY="-10" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0001" x="10" y="10" width="343" height="337" frameX="0" frameY="-10" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0002" x="363" y="10" width="383" height="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0003" x="363" y="10" width="383" height="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0004" x="756" y="10" width="356" height="340" frameX="0" frameY="-7" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0005" x="756" y="10" width="356" height="340" frameX="0" frameY="-7" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0006" x="1122" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0007" x="1122" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0008" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0009" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0010" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0011" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0012" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note DOWN0013" x="1492" y="10" width="360" height="344" frameX="0" frameY="-3" frameWidth="383" frameHeight="347"/>
+	<SubTexture name="Cerb Sing Note LEFT0000" x="1862" y="10" width="411" height="388" frameX="0" frameY="0" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0001" x="1862" y="10" width="411" height="388" frameX="0" frameY="0" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0002" x="2283" y="10" width="424" height="342" frameX="-6" frameY="-31" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0003" x="2283" y="10" width="424" height="342" frameX="-6" frameY="-31" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0004" x="2717" y="10" width="408" height="348" frameX="-6" frameY="-25" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0005" x="2717" y="10" width="408" height="348" frameX="-6" frameY="-25" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0006" x="3135" y="10" width="410" height="357" frameX="-7" frameY="-16" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0007" x="3135" y="10" width="410" height="357" frameX="-7" frameY="-16" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0008" x="3555" y="10" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0009" x="3555" y="10" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0010" x="10" y="408" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0011" x="10" y="408" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0012" x="10" y="408" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note LEFT0013" x="10" y="408" width="411" height="355" frameX="-7" frameY="-18" frameWidth="430" frameHeight="388"/>
+	<SubTexture name="Cerb Sing Note RIGHT0000" x="431" y="408" width="384" height="378" frameX="-3" frameY="0" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0001" x="431" y="408" width="384" height="378" frameX="-3" frameY="0" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0002" x="825" y="408" width="406" height="393" frameX="0" frameY="-1" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0003" x="825" y="408" width="406" height="393" frameX="0" frameY="-1" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0004" x="1241" y="408" width="385" height="389" frameX="-9" frameY="-5" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0005" x="1241" y="408" width="385" height="389" frameX="-9" frameY="-5" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0006" x="1636" y="408" width="381" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0007" x="1636" y="408" width="381" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0008" x="2027" y="408" width="383" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0009" x="2027" y="408" width="383" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0010" x="2420" y="408" width="382" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0011" x="2420" y="408" width="382" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0012" x="2420" y="408" width="382" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0013" x="2420" y="408" width="382" height="387" frameX="-6" frameY="-7" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0014" x="431" y="408" width="384" height="378" frameX="-3" frameY="0" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note RIGHT0015" x="431" y="408" width="384" height="378" frameX="-3" frameY="0" frameWidth="406" frameHeight="394"/>
+	<SubTexture name="Cerb Sing Note UP0000" x="2812" y="408" width="422" height="431" frameX="-6" frameY="-4" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0001" x="2812" y="408" width="422" height="431" frameX="-6" frameY="-4" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0002" x="3244" y="408" width="438" height="424" frameX="0" frameY="-13" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0003" x="3244" y="408" width="438" height="424" frameX="0" frameY="-13" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0004" x="10" y="849" width="435" height="427" frameX="-1" frameY="-10" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0005" x="10" y="849" width="435" height="427" frameX="-1" frameY="-10" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0006" x="455" y="849" width="435" height="434" frameX="-1" frameY="-3" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0007" x="455" y="849" width="435" height="434" frameX="-1" frameY="-3" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0008" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0009" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0010" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0011" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0012" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb Sing Note UP0013" x="900" y="849" width="435" height="437" frameX="-1" frameY="0" frameWidth="438" frameHeight="437"/>
+	<SubTexture name="Cerb idle dance0000" x="1345" y="849" width="350" height="370" frameX="-14" frameY="-13" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0001" x="1345" y="849" width="350" height="370" frameX="-14" frameY="-13" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0002" x="1705" y="849" width="351" height="377" frameX="-15" frameY="-6" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0003" x="1705" y="849" width="351" height="377" frameX="-15" frameY="-6" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0004" x="2066" y="849" width="353" height="381" frameX="-8" frameY="-2" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0005" x="2066" y="849" width="353" height="381" frameX="-8" frameY="-2" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0006" x="2429" y="849" width="357" height="383" frameX="-2" frameY="0" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0007" x="2429" y="849" width="357" height="383" frameX="-2" frameY="0" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0008" x="2796" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0009" x="2796" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0010" x="3164" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0011" x="3164" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0012" x="3164" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+	<SubTexture name="Cerb idle dance0013" x="3164" y="849" width="358" height="382" frameX="0" frameY="-1" frameWidth="366" frameHeight="383"/>
+</TextureAtlas>

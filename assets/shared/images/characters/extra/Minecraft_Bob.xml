@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Bob_Not_Found.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bob Down0000" x="10" y="10" width="701" height="1201" frameX="0" frameY="-5" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0001" x="10" y="10" width="701" height="1201" frameX="0" frameY="-5" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0002" x="721" y="10" width="696" height="1204" frameX="-5" frameY="-2" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0003" x="721" y="10" width="696" height="1204" frameX="-5" frameY="-2" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0004" x="1427" y="10" width="672" height="1206" frameX="-29" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0005" x="1427" y="10" width="672" height="1206" frameX="-29" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0006" x="2109" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0007" x="2109" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0008" x="2788" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0009" x="2788" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0010" x="3467" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0011" x="3467" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0012" x="4146" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down0013" x="4146" y="10" width="669" height="1206" frameX="-32" frameY="0" frameWidth="701" frameHeight="1206"/>
+	<SubTexture name="Bob Down Miss0000" x="4825" y="10" width="701" height="1217" frameX="0" frameY="0" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0001" x="5536" y="10" width="638" height="1162" frameX="-65" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0002" x="5536" y="10" width="638" height="1162" frameX="-65" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0003" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0004" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0005" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0006" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0007" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0008" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0009" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0010" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0011" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0012" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0013" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0014" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0015" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0016" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0017" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0018" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0019" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0020" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0021" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0022" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0023" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0024" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0025" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0026" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0027" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0028" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0029" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0030" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0031" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0032" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Down Miss0033" x="6184" y="10" width="643" height="1162" frameX="-58" frameY="-55" frameWidth="703" frameHeight="1217"/>
+	<SubTexture name="Bob Idle0000" x="6837" y="10" width="645" height="1241" frameX="0" frameY="-16" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0001" x="6837" y="10" width="645" height="1241" frameX="0" frameY="-16" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0002" x="7492" y="10" width="646" height="1257" frameX="-1" frameY="0" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0003" x="7492" y="10" width="646" height="1257" frameX="-1" frameY="0" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0004" x="10" y="1277" width="647" height="1249" frameX="-3" frameY="-8" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0005" x="10" y="1277" width="647" height="1249" frameX="-3" frameY="-8" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0006" x="667" y="1277" width="647" height="1247" frameX="-3" frameY="-10" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0007" x="667" y="1277" width="647" height="1247" frameX="-3" frameY="-10" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0008" x="1324" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0009" x="1324" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0010" x="1981" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0011" x="1981" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0012" x="1981" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Idle0013" x="1981" y="1277" width="647" height="1245" frameX="-3" frameY="-12" frameWidth="650" frameHeight="1257"/>
+	<SubTexture name="Bob Left0000" x="2638" y="1277" width="564" height="1203" frameX="0" frameY="0" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0001" x="2638" y="1277" width="564" height="1203" frameX="0" frameY="0" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0002" x="3212" y="1277" width="561" height="1201" frameX="-6" frameY="-2" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0003" x="3212" y="1277" width="561" height="1201" frameX="-6" frameY="-2" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0004" x="3783" y="1277" width="567" height="1193" frameX="-15" frameY="-10" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0005" x="3783" y="1277" width="567" height="1193" frameX="-15" frameY="-10" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0006" x="4360" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0007" x="4360" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0008" x="4937" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0009" x="4937" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0010" x="5514" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0011" x="5514" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0012" x="5514" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left0013" x="5514" y="1277" width="567" height="1194" frameX="-16" frameY="-9" frameWidth="583" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0000" x="6091" y="1277" width="564" height="1203" frameX="0" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0001" x="6665" y="1277" width="543" height="1203" frameX="-23" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0002" x="6665" y="1277" width="543" height="1203" frameX="-23" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0003" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0004" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0005" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0006" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0007" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0008" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0009" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0010" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0011" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0012" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0013" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0014" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0015" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0016" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0017" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0018" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0019" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0020" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0021" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0022" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0023" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0024" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0025" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0026" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0027" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0028" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0029" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0030" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0031" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0032" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Left Miss0033" x="7218" y="1277" width="546" height="1203" frameX="-17" frameY="0" frameWidth="566" frameHeight="1203"/>
+	<SubTexture name="Bob Right Miss0000" x="10" y="2536" width="741" height="1235" frameX="-1" frameY="0" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0001" x="761" y="2536" width="700" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0002" x="761" y="2536" width="700" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0003" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0004" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0005" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0006" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0007" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0008" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0009" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0010" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0011" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0012" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0013" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0014" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0015" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0016" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0017" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0018" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0019" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0020" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0021" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0022" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0023" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0024" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0025" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0026" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0027" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0028" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0029" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0030" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0031" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0032" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Right Miss0033" x="1471" y="2536" width="703" height="1196" frameX="0" frameY="-39" frameWidth="742" frameHeight="1235"/>
+	<SubTexture name="Bob Up0000" x="2184" y="2536" width="833" height="1348" frameX="0" frameY="0" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0001" x="2184" y="2536" width="833" height="1348" frameX="0" frameY="0" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0002" x="3027" y="2536" width="829" height="1341" frameX="-4" frameY="-7" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0003" x="3027" y="2536" width="829" height="1341" frameX="-4" frameY="-7" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0004" x="3866" y="2536" width="821" height="1313" frameX="-11" frameY="-35" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0005" x="3866" y="2536" width="821" height="1313" frameX="-11" frameY="-35" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0006" x="4697" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0007" x="4697" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0008" x="5528" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0009" x="5528" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0010" x="6359" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0011" x="6359" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0012" x="6359" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up0013" x="6359" y="2536" width="821" height="1308" frameX="-13" frameY="-40" frameWidth="834" frameHeight="1348"/>
+	<SubTexture name="Bob Up Miss0000" x="7190" y="2536" width="834" height="1349" frameX="0" frameY="0" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0001" x="10" y="3895" width="880" height="1280" frameX="-11" frameY="-68" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0002" x="10" y="3895" width="880" height="1280" frameX="-11" frameY="-68" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0003" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0004" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0005" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0006" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0007" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0008" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0009" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0010" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0011" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0012" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0013" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0014" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0015" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0016" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0017" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0018" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0019" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0020" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0021" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0022" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0023" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0024" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0025" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0026" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0027" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0028" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0029" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0030" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0031" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0032" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="Bob Up Miss0033" x="900" y="3895" width="868" height="1284" frameX="-15" frameY="-64" frameWidth="891" frameHeight="1349"/>
+	<SubTexture name="BobRight0000" x="1778" y="3895" width="741" height="1234"/>
+	<SubTexture name="BobRight0001" x="1778" y="3895" width="741" height="1234"/>
+	<SubTexture name="BobRight0002" x="2529" y="3895" width="737" height="1230" frameX="0" frameY="-4" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0003" x="2529" y="3895" width="737" height="1230" frameX="0" frameY="-4" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0004" x="3276" y="3895" width="712" height="1212" frameX="0" frameY="-22" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0005" x="3276" y="3895" width="712" height="1212" frameX="0" frameY="-22" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0006" x="3998" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0007" x="3998" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0008" x="4717" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0009" x="4717" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0010" x="5436" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0011" x="5436" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0012" x="5436" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+	<SubTexture name="BobRight0013" x="5436" y="3895" width="709" height="1210" frameX="0" frameY="-24" frameWidth="741" frameHeight="1234"/>
+</TextureAtlas>

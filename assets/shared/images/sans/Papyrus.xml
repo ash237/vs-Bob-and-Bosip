@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Papyrus.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Papyrus0000" x="3" y="3" width="431" height="716" frameX="0" frameY="-2" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0001" x="438" y="3" width="430" height="718" frameX="0" frameY="-1" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0002" x="872" y="3" width="427" height="717" frameX="-1" frameY="-1" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0003" x="1303" y="3" width="422" height="717" frameX="-2" frameY="-1" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0004" x="3" y="725" width="417" height="718" frameX="-3" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0005" x="424" y="725" width="414" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0006" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0007" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0008" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0009" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0010" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0011" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0012" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+	<SubTexture name="Papyrus0013" x="842" y="725" width="413" height="718" frameX="-4" frameY="0" frameWidth="431" frameHeight="719"/>
+</TextureAtlas>

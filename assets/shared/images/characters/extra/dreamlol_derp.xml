@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dreamlol_derp.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bobEX_down0000" x="10" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0001" x="10" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0002" x="655" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0003" x="655" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0004" x="1300" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0005" x="1300" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0006" x="1945" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0007" x="1945" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0008" x="2590" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0009" x="2590" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0010" x="2590" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_down0011" x="2590" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0000" x="3235" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0001" x="3235" y="10" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0002" x="10" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0003" x="10" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0004" x="655" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0005" x="655" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0006" x="1300" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0007" x="1300" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0008" x="1300" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_idle0009" x="1300" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0000" x="1945" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0001" x="1945" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0002" x="2590" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0003" x="2590" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0004" x="3235" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0005" x="3235" y="579" width="635" height="559"/>
+	<SubTexture name="bobEX_left0006" x="10" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_left0007" x="10" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_left0008" x="10" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_left0009" x="10" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0000" x="655" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0001" x="655" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0002" x="1300" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0003" x="1300" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0004" x="1945" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0005" x="1945" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0006" x="2590" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0007" x="2590" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0008" x="3235" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0009" x="3235" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_right0010" x="3235" y="1148" width="635" height="559"/>
+	<SubTexture name="bobEX_up0000" x="10" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0001" x="10" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0002" x="655" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0003" x="655" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0004" x="1300" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0005" x="1300" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0006" x="1945" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0007" x="1945" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0008" x="1945" y="1717" width="635" height="559"/>
+	<SubTexture name="bobEX_up0009" x="1945" y="1717" width="635" height="559"/>
+</TextureAtlas>

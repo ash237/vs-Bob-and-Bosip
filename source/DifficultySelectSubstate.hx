@@ -12,8 +12,11 @@ import flixel.math.FlxPoint;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
+import openfl.display.Shader;
 import flixel.tweens.FlxTween;
 import openfl.geom.Point;
+import LoadingState.LoadingsState;
+import flixel.addons.transition.FlxTransitionableState;
 
 #if windows
 import Sys;
@@ -27,6 +30,7 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 	var bg:FlxSprite;
 
 	var hasEX:Bool = false;
+	var hasRegular:Bool = false;
 	var song:String;
 
 	var easy:FlxSprite;
@@ -57,12 +61,51 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 		bg.alpha = 0.2;
 		add(bg);
 
+		
+		if (FileSystem.exists(Paths.instcheck(song))) 
+			hasRegular = true;
+
+		
+		
 		if (FileSystem.exists(Paths.instEXcheck(song))) 
 			hasEX = true;
-	
+
+		trace(hasRegular);
+		trace(hasEX);
+		//ex = new FlxSprite();
+		//exText = new FlxSprite();
+
+			
+
 		//please don't do this, use FlxTypedGroup, I"m just being dumb because I'm lazy
 
-		if (hasEX) {
+		if (song == 'oblique fracture') {
+			easy = new FlxSprite(-90).makeGraphic(0, 0, FlxColor.BLACK);
+			easy.alpha = 0;
+			add(easy);
+			normal = new FlxSprite(-90).makeGraphic(0, 0, FlxColor.BLACK);
+			normal.alpha = 0;
+			add(normal);
+			hard = new FlxSprite(0, 0).makeGraphic(Std.int(FlxG.width / 2), FlxG.height, FlxColor.BLACK);
+			hard.alpha = 0;
+			add(hard);
+			easy.visible = false;
+			ex = new FlxSprite(FlxG.width / 2, 0).makeGraphic(Std.int(FlxG.width / 2), FlxG.height, FlxColor.BLACK);
+			ex.alpha = 0;
+			add(ex);
+
+			easyText = new FlxSprite(177, 123).loadGraphic(Paths.image('storymenu/easyText'));
+			//add(easyText);
+			normalText = new FlxSprite(761, 107).loadGraphic(Paths.image('storymenu/normalText'));
+			//add(normalText);
+			hardText = new FlxSprite(212, 310).loadGraphic(Paths.image('storymenu/hardText'));
+			add(hardText);
+			if (FlxG.save.data.unlockedEX)
+				exText = new FlxSprite(855, 295).loadGraphic(Paths.image('freeplay/exUnlocked'));
+			else
+				exText = new FlxSprite(855, 295).loadGraphic(Paths.image('freeplay/exLocked'));
+			add(exText);
+		} else if (hasEX && hasRegular) {
 			easy = new FlxSprite().makeGraphic(640, 360, FlxColor.BLACK);
 			easy.alpha = 0;
 			add(easy);
@@ -88,7 +131,7 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 				exText = new FlxSprite(851, 477).loadGraphic(Paths.image('freeplay/exLocked'));
 			add(exText);
 
-		} else {
+		} else if (hasRegular) {
 			easy = new FlxSprite().makeGraphic(427, 720, FlxColor.BLACK);
 			easy.alpha = 0;
 			add(easy);
@@ -105,7 +148,21 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 			add(normalText);
 			hardText = new FlxSprite(960, 303).loadGraphic(Paths.image('storymenu/hardText'));
 			add(hardText);
+		} else if (!hasRegular && hasEX) {
+			ex = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+			ex.alpha = 0;
+			add(ex);
+
+			exText = new FlxSprite(851, 477).loadGraphic(Paths.image('freeplay/exUnlocked'));
+			
+			if (!FlxG.save.data.unlockedEX)
+				exText = new FlxSprite(851, 477).loadGraphic(Paths.image('freeplay/exLocked'));
+
+			exText.screenCenter();
+			add(exText);
 		}
+		
+		
 
 		bobmadshake = new FlxSprite( -198, -118).loadGraphic(Paths.image('storymenu/bobscreen'));
 		bobmadshake.scrollFactor.set(0, 0);
@@ -116,6 +173,10 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 		exitButton = new FlxSprite(18, 17).loadGraphic(Paths.image('desktop/gallery/backText'));
 		add(exitButton);
 	}
+
+	function setupStuff() {
+		
+	}
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
@@ -125,48 +186,50 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 			if (hasEX) {
 				if (FlxG.mouse.overlaps(ex) && FlxG.save.data.unlockedEX) {
 					ex.alpha = 0.4;
-					exText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
+					exText.color = FlxColor.fromHSL(exText.color.hue, exText.color.saturation, 1, 1);
 					if (FlxG.mouse.justPressed)
 						enterSong(3);
 				} else {
 					ex.alpha = 0;
-					exText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
+					exText.color = FlxColor.fromHSL(exText.color.hue, exText.color.saturation, 0.7, 1);
 				}
 			} 
 			if (FlxG.mouse.overlaps(exitButton)) {
-				exitButton.color = FlxColor.fromHSL(normalText.color.hue, exitButton.color.saturation, 1, 1);
+				exitButton.color = FlxColor.fromHSL(exitButton.color.hue, exitButton.color.saturation, 1, 1);
 				if (FlxG.mouse.justPressed) {
 					closeMenu();
 				}
 			} else {
 				exitButton.color = FlxColor.fromHSL(exitButton.color.hue, exitButton.color.saturation, 0.7, 1);
 			}
-			if (FlxG.mouse.overlaps(easy) && !FlxG.mouse.overlaps(exitButton)) {
-				easy.alpha = 0.4;
-				easyText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
-				if (FlxG.mouse.justPressed)
-					checkIfShouldEnter(0);
-			} else {
-				easy.alpha = 0;
-				easyText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
-			}
-			if (FlxG.mouse.overlaps(normal)) {
-				normal.alpha = 0.4;
-				normalText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
-				if (FlxG.mouse.justPressed)
-					checkIfShouldEnter(1);
-			} else {
-				normal.alpha = 0;
-				normalText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
-			}
-			if (FlxG.mouse.overlaps(hard)) {
-				hard.alpha = 0.4;
-				hardText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
-				if (FlxG.mouse.justPressed)
-					checkIfShouldEnter(2);
-			} else {
-				hard.alpha = 0;
-				hardText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
+			if (hasRegular) {
+				if (FlxG.mouse.overlaps(easy) && !FlxG.mouse.overlaps(exitButton)) {
+					easy.alpha = 0.4;
+					easyText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
+					if (FlxG.mouse.justPressed)
+						checkIfShouldEnter(0);
+				} else {
+					easy.alpha = 0;
+					easyText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
+				}
+				if (FlxG.mouse.overlaps(normal)) {
+					normal.alpha = 0.4;
+					normalText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
+					if (FlxG.mouse.justPressed)
+						checkIfShouldEnter(1);
+				} else {
+					normal.alpha = 0;
+					normalText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
+				}
+				if (FlxG.mouse.overlaps(hard)) {
+					hard.alpha = 0.4;
+					hardText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 1, 1);
+					if (FlxG.mouse.justPressed)
+						checkIfShouldEnter(2);
+				} else {
+					hard.alpha = 0;
+					hardText.color = FlxColor.fromHSL(normalText.color.hue, normalText.color.saturation, 0.7, 1);
+				}
 			}
 		}
 	}
@@ -181,7 +244,7 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 	{
 		switch (song.toLowerCase()) {
 			case 'jump-out' | 'ronald mcdonald slide' | 'copy-cat':
-				if (diff == 2)
+				if (diff >= 2)
 					enterSong(diff);
 				else
 					Bobismad();
@@ -198,9 +261,14 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 		if (diff == 3) {
 			PlayState.effectSONG = Song.loadFromJson('effects-ex', song.toLowerCase());
 		}
+		
+		var woofEXthing:String = '';
+		if (diff == 3)
+			woofEXthing = '-ex';
+
 		switch (song.toLowerCase()) {
 			case 'yap squad':
-				PlayState.dad2SONG = Song.loadFromJson('woof', song.toLowerCase());
+				PlayState.dad2SONG = Song.loadFromJson('woof' + woofEXthing, song.toLowerCase());
 		}
 		PlayState.SONG = Song.loadFromJson(poop, song.toLowerCase());
 		PlayState.isStoryMode = false;
@@ -219,7 +287,10 @@ class DifficultySelectSubstate extends MusicBeatSubstate
 
 		new FlxTimer().start(0.6, function(tmr:FlxTimer)
 		{
-			LoadingState.loadAndSwitchState(new PlayState());
+			openSubState(new LoadingsState());
+			FlxTransitionableState.skipNextTransIn = true;
+			var toSwitchToState = new PlayState();
+			LoadingState.loadAndSwitchState(toSwitchToState, true,true);
 		});
 	}
 	function Bobismad():Void

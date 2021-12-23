@@ -36,6 +36,7 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 	var songsToPlay:Array<String> = [];
 	var songNames:Array<String> = [];
 	var bpms:Array<Int> = [];
+	var elapsedlol:Float = 0;
 
 	var curSelected:Int = 0;
 	var songLength:Int = 0;
@@ -131,13 +132,15 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 		{
 			var data:Array<String> = initSonglist[i].split(':');
 			if (unlockedSongs[i]) {
-				songsToPlay.push(Paths.inst(data[0]));
-				songNames.push(data[0]);
-				var daJson = Song.loadFromJson(data[0].toLowerCase() + '-hard', data[0].toLowerCase());
-				bpms.push(Std.int(daJson.bpm));
-				iconArray.push(data[1]);
-				trace(daJson.bpm);
-				songLength++;
+				if (FileSystem.exists(Paths.instcheck(data[0]))) {
+					songsToPlay.push(Paths.inst(data[0]));
+					songNames.push(data[0]);
+					var daJson = Song.loadFromJson(data[0].toLowerCase() + '-hard', data[0].toLowerCase());
+					bpms.push(Std.int(daJson.bpm));
+					iconArray.push(data[1]);
+					trace(daJson.bpm);
+					songLength++;
+				}
 				if (FlxG.save.data.unlockedEX && FileSystem.exists(Paths.instEXcheck(data[0]))) {
 					var daJson = Song.loadFromJson(data[0].toLowerCase() + '-ex', data[0].toLowerCase());
 					bpms.push(Std.int(daJson.bpm));
@@ -147,10 +150,7 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 					else
 						songsToPlay.push(Paths.instEX(data[0]));
 					songNames.push(data[0] + ' EX');
-					if (data[1] == 'gf')
-						iconArray.push(data[1] + '-ex');
-					else
-						iconArray.push(data[1] + 'ex');
+					iconArray.push(data[1] + '-ex');
 					songLength++;
 				}
 			}
@@ -218,6 +218,7 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 			selectionText.borderQuality = 2;
 			selectionText.alignment = CENTER;
 			selectionText.alpha = 0;
+			selectionText.wordWrap = false;
 			add(selectionText);
 
 			playingText = new FlxText(706, 241, 545, '', 90, true);
@@ -227,9 +228,14 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 			playingText.borderColor = FlxColor.BLACK;
 			playingText.borderQuality = 2;
 			playingText.alignment = CENTER;
+			playingText.wordWrap = false;
 			if (textPlaying != null || textPlaying != '') {
 				playingText.text = textPlaying;
+				playingText.size = 90;
+				playingText.y = 241;
+				resizeText(playingText);
 			}
+			playingText.wordWrap = false;
 			playingText.alpha = 0;
 			add(playingText);
 			FlxTween.tween(playingText, {alpha: 1}, 0.3, {ease: FlxEase.cubeOut});
@@ -249,6 +255,7 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 	}
 	override function update(elapsed:Float)
 	{
+		elapsedlol = elapsed;
 		super.update(elapsed);
 
 		if (isExist) {
@@ -293,6 +300,9 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 								theSong.play();
 								FlxG.sound.defaultMusicGroup.add(theSong);
 								playingText.text = songNames[curSelected];
+								playingText.size = 90;
+								playingText.y = 241;
+								resizeText(playingText);
 								textPlaying = songNames[curSelected];
 								Conductor.changeBPM(bpms[curSelected]);
 								bpm = bpms[curSelected];
@@ -339,8 +349,18 @@ class MusicPlayerSubstate extends MusicBeatSubstate
 			curSelected = 0;
 
 		selectionText.text = songNames[curSelected];
+		selectionText.size = 71;
+		selectionText.y = 491;
+		resizeText(selectionText);
 	}
-
+	function resizeText(spr:FlxText) {
+		if (spr.textField.textWidth > spr.fieldWidth) {
+			while (spr.textField.textWidth > spr.fieldWidth)
+				spr.size--;
+				spr.y+= 4;
+				spr.update(elapsedlol);
+		}
+	}
 	override function beatHit() {
 		if (isExist && bpm != 0) {
 			if (curBeat % 2 == 0)

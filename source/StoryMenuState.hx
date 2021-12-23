@@ -15,6 +15,7 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
+import LoadingState.LoadingsState;
 import flixel.tweens.FlxEase;
 import flixel.system.frontEnds.SoundFrontEnd;
 
@@ -621,7 +622,11 @@ class StoryMenuState extends MusicBeatState
 				PlayState.campaignScore = 0;
 				new FlxTimer().start(1.5, function(tmr:FlxTimer)
 				{
-					LoadingState.loadAndSwitchState(new PlayState(), true);
+					openSubState(new LoadingsState());
+					FlxTransitionableState.skipNextTransIn = true;
+					var toSwitchToState = new PlayState();
+					LoadingState.loadAndSwitchState(toSwitchToState, true,true);
+				
 				});
 			}
 			
@@ -817,7 +822,10 @@ class StoryMenuState extends MusicBeatState
 			PlayState.desktopMode = false;
 			new FlxTimer().start(1.5, function(tmr:FlxTimer)
 			{
-				LoadingState.loadAndSwitchState(new PlayState(), true);
+				openSubState(new LoadingsState());
+				FlxTransitionableState.skipNextTransIn = true;
+				var toSwitchToState = new PlayState();
+				LoadingState.loadAndSwitchState(toSwitchToState, true,true);
 			});
 		} else
 			selectedWeek = false;

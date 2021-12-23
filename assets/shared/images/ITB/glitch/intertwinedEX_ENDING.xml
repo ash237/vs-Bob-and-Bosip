@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="intertwinedEX_ENDING.png">
+	<!-- Created with Adobe Animate version 20.0.2.22168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IntertwinedEX_ENDING0000" x="0" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0001" x="0" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0002" x="819" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0003" x="819" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0004" x="819" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0005" x="819" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0006" x="1638" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0007" x="1638" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0008" x="2457" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0009" x="2457" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0010" x="3276" y="0" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0011" x="0" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0012" x="0" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0013" x="0" y="2112" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0014" x="0" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0015" x="0" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0016" x="819" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0017" x="819" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0018" x="1638" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0019" x="1638" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0020" x="2457" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0021" x="2457" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0022" x="3276" y="704" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0023" x="819" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0024" x="819" y="2112" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0025" x="819" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0026" x="1638" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0027" x="2457" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0028" x="3276" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0029" x="1638" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0030" x="1638" y="2112" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0031" x="3276" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0032" x="1638" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0033" x="1638" y="2112" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0034" x="819" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0035" x="1638" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0036" x="2457" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0037" x="819" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0038" x="1638" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0039" x="2457" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0040" x="3276" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0041" x="1638" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0042" x="1638" y="2112" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0043" x="3276" y="1408" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0044" x="1638" y="2816" width="818" height="703"/>
+	<SubTexture name="IntertwinedEX_ENDING0045" x="1638" y="2112" width="818" height="703"/>
+</TextureAtlas>

@@ -8,6 +8,7 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSubState;
 import flixel.math.FlxPoint;
+import LoadingState.LoadingsState;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
@@ -29,15 +30,16 @@ class ApplicationEnterSubstate extends MusicBeatSubstate
 
 		new FlxTimer().start(0.6, function(tmr:FlxTimer)
 		{
-			FlxTransitionableState.skipNextTransIn = true;
-			FlxTransitionableState.skipNextTransOut = true;
 			TitleState.initialized = false;
 			TitleState.leftOnce = false;
 			MusicPlayerSubstate.textPlaying = '';
 			MusicPlayerSubstate.bpm = 0;
 			MusicPlayerSubstate.iconUsed = '';
 			DesktopState.theSong.stop();
-			FlxG.switchState(new TitleState());
+			openSubState(new LoadingsState());
+			FlxTransitionableState.skipNextTransIn = true;
+			var toSwitchToState = new TitleState();
+			LoadingState.loadAndSwitchState(toSwitchToState, true,true);
 		});
 	}
 

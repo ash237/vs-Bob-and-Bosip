@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="omni_bf.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf_buff_ex_transformation instance 10000" x="0" y="0" width="382" height="444" frameX="-206" frameY="-467" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10001" x="387" y="0" width="440" height="888" frameX="-144" frameY="0" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10002" x="387" y="0" width="440" height="888" frameX="-144" frameY="0" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10003" x="832" y="0" width="728" height="732" frameX="0" frameY="-156" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10004" x="832" y="0" width="728" height="732" frameX="0" frameY="-156" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10005" x="1565" y="0" width="592" height="846" frameX="-68" frameY="-42" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10006" x="1565" y="0" width="592" height="846" frameX="-68" frameY="-42" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10007" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10008" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10009" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10010" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10011" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10012" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_buff_ex_transformation instance 10013" x="2162" y="0" width="616" height="838" frameX="-56" frameY="-50" frameWidth="728" frameHeight="911"/>
+	<SubTexture name="bf_return instance 10000" x="2783" y="0" width="476" height="319" frameX="0" frameY="-82" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10001" x="2783" y="0" width="476" height="319" frameX="0" frameY="-82" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10002" x="3264" y="0" width="328" height="401" frameX="-72" frameY="0" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10003" x="3264" y="0" width="328" height="401" frameX="-72" frameY="0" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10004" x="3597" y="0" width="406" height="380" frameX="-38" frameY="-21" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10005" x="3597" y="0" width="406" height="380" frameX="-38" frameY="-21" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10006" x="0" y="893" width="382" height="390" frameX="-49" frameY="-11" frameWidth="476" frameHeight="401"/>
+	<SubTexture name="bf_return instance 10007" x="0" y="893" width="382" height="390" frameX="-49" frameY="-11" frameWidth="476" frameHeight="401"/>
+</TextureAtlas>

@@ -21,9 +21,11 @@ class GallerySubstate extends MusicBeatSubstate
 
 	var fanmadeImage:FlxSprite;
 	var officialImage:FlxSprite;
+	var loadingImage:FlxSprite;
 
 	var fanmadeText:FlxSprite;
 	var officialText:FlxSprite;
+	var loadingText:FlxSprite;
 	
 	var xText:FlxSprite;
 
@@ -33,6 +35,9 @@ class GallerySubstate extends MusicBeatSubstate
 	public var officialPictures:FlxTypedGroup<FlxSprite>;
 	public var fanmadeGallery:FlxTypedGroup<FlxSprite>;
 	public var fanmadePictures:FlxTypedGroup<FlxSprite>;
+	public var loadingGallery:FlxTypedGroup<FlxSprite>;
+	public var loadingPictures:FlxTypedGroup<FlxSprite>;
+	var bottomingCounter:Int = 0;
 
 	var selectedGallery:FlxTypedGroup<FlxSprite>;
 	var selectedPictures:FlxTypedGroup<FlxSprite>;
@@ -48,6 +53,8 @@ class GallerySubstate extends MusicBeatSubstate
 	var hasTwitter:Bool = false;
 	var twitterButton:FlxSprite;
 
+	var loadingCaptions:Array<String> = [
+	];
 	var fanMadeCaptions:Array<String> = [
 		'@miinxinq',
 		'@tekaxkou',
@@ -86,7 +93,67 @@ class GallerySubstate extends MusicBeatSubstate
 		'@FNF_Pn_Pi',
 		'@pieroshiki',
 	];
-
+	var twitterLoadingLinks:Array<String> = [
+		'https://twitter.com/SpookyGh0sty_',
+		'https://twitter.com/pieroshiki',
+		'https://twitter.com/The_Q_Artz',
+		'https://twitter.com/The_Q_Artz',
+		'https://twitter.com/The_Q_Artz',
+		'https://twitter.com/pieroshiki',
+		'https://twitter.com/vscadet',
+		'https://twitter.com/SEOHWABNB',
+		'https://twitter.com/gimdongdong_309',
+		'https://twitter.com/Justifited',
+		'https://twitter.com/SEOHWABNB',
+		'https://twitter.com/lz_luaazs',
+		'https://twitter.com/typicalemerald',
+		'https://twitter.com/_Teru_1',
+		'https://twitter.com/NabNab_222',
+		'https://twitter.com/Blueowljewels',
+		'https://twitter.com/lz_luaazs',
+		'https://twitter.com/Tofuisstilltofu',
+		'https://twitter.com/lz_luaazs',
+		'https://twitter.com/doodle_jaes',
+		'https://twitter.com/SEOHWABNB',
+		'https://twitter.com/P4nc4t',
+		'https://twitter.com/vscadet',
+		'https://twitter.com/SEOHWABNB',
+		'https://twitter.com/FISHYONME_',
+		'https://twitter.com/doodle_jaes',
+		'https://twitter.com/Justifited',
+		'https://twitter.com/SpookyGh0sty_',
+		'https://twitter.com/Franbobisdraws',
+		'https://twitter.com/Franbobisdraws',
+		'https://twitter.com/NabNab_222',
+		'https://twitter.com/artificialpulse',
+		'https://twitter.com/relation_fnf',
+		'https://twitter.com/frixen__',
+		'https://twitter.com/Justifited',
+		'https://twitter.com/siimply_rcxy',
+		'https://twitter.com/Marisgameplays',
+		'https://twitter.com/SBJ_FNF',
+		'https://twitter.com/SBJ_FNF',
+		'https://twitter.com/SBJ_FNF',
+		'https://twitter.com/SBJ_FNF',
+		'https://twitter.com/SBJ_FNF',
+		'https://twitter.com/doodle_jaes',
+		'https://twitter.com/Blueowljewels',
+		'https://twitter.com/vscadet',
+		'https://twitter.com/gimdongdong_309',
+		'https://twitter.com/jyrocopter_ ',
+		'https://twitter.com/Blueowljewels',
+		'https://twitter.com/buniberi',
+		'https://twitter.com/pieroshiki',
+		'https://twitter.com/SpookyGh0sty_',
+		'https://twitter.com/mamonksnk',
+		'https://twitter.com/mamonksnk',
+		'https://twitter.com/Marisgameplays',
+		'https://twitter.com/chocodecorative',
+		'https://twitter.com/SpookyGh0sty_',
+		'https://twitter.com/doodle_jaes',
+		'https://twitter.com/mepedrop',
+		'https://twitter.com/TheMaskedChris'
+	];
 	var twitterLinks:Array<String> = [
 		'https://twitter.com/miinxinq/status/1411770969891512320',
 		'https://twitter.com/tekaxkou/status/1410287571381493760',
@@ -139,12 +206,27 @@ class GallerySubstate extends MusicBeatSubstate
 		'Bob and Bosip, Soft Edition!',
 		'all the Bobs together.',
 		'Cover Art for Split.',
-		'Geometry Dash Icon concepts for the Bob gang.'
+		'Geometry Dash Icon concepts for the Bob gang.',
+		"Bob and Bosip Dark World design for Delatrune",
+		"Bob and Bosip had a tiring day after rapping with BF all day",
+		"Sketches of Soft!Bob and Bosip being cute",
+		"Official full body design of the Bob Gang",
+		"Art of Bob and Bosip as a grunt from the Madness Combat Series",
+		"Oh, they switched clothes",
+		"Even if he is mute, he can still battle you",
+		"Nya :3",
+		"Say cheese!",
+		"Bob and Bosip 40 DTIYS",
+		"Bowaev and Boder 40 DTIYS",
+		"Bobal and Bofo 40 DTIYS",
+		"Bobot 40 DTIYS",
+		"Fun is Infinite",
 	];
 	var officialCaptionColors:Array<FlxColor> = [];
 	
 	
 	var fanMadeCaptionColors:Array<FlxColor> = [];
+	var loadingCaptionColors:Array<FlxColor> = [];
 
 	var captions:Array<String> = [];
 	var captionColors:Array<FlxColor> = [];
@@ -155,6 +237,7 @@ class GallerySubstate extends MusicBeatSubstate
 	var galleryText:FlxSprite;
 	var sumOfficialText:FlxSprite;
 	var sumFanMadeText:FlxSprite;
+	var sumLoadingText:FlxSprite;
 
 	var wallpaperButton:FlxSprite;
 	var bb:FlxSprite;
@@ -166,6 +249,7 @@ class GallerySubstate extends MusicBeatSubstate
 	
 	public var officialImageLocations:Array<String> = [];
 	public var fanmadeImageLocations:Array<String> = [];
+	public var loadingImageLocations:Array<String> = [];
 	var selectedImageLocations:Array<String> = [];
 	var selectedLocation:String = '';
 
@@ -187,6 +271,67 @@ class GallerySubstate extends MusicBeatSubstate
 			closePosition = s;
 			trace(closePosition);
 			bb.visible = true;
+
+			loadingCaptionColors = [
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.WHITE,
+			];
 			officialCaptionColors = [
 				FlxColor.WHITE,
 				FlxColor.BLACK,
@@ -200,6 +345,18 @@ class GallerySubstate extends MusicBeatSubstate
 				FlxColor.BLACK,
 				FlxColor.WHITE,
 				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.WHITE,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK,
+				FlxColor.BLACK
 			];
 
 			fanMadeCaptionColors = [
@@ -267,14 +424,20 @@ class GallerySubstate extends MusicBeatSubstate
 			officialImage = new FlxSprite(10, 94).loadGraphic(Paths.image('desktop/gallery/officialImage'));
 			add(officialImage);
 			
-			fanmadeImage = new FlxSprite(642, 94).loadGraphic(Paths.image('desktop/gallery/fanmadeImage'));
+			fanmadeImage = new FlxSprite(426, 94).loadGraphic(Paths.image('desktop/gallery/fanmadeImage'));
 			add(fanmadeImage);
 
-			officialText = new FlxSprite(165, 323).loadGraphic(Paths.image('desktop/gallery/officialText'));
+			loadingImage = new FlxSprite(852, 94).loadGraphic(Paths.image('desktop/gallery/loadingImage'));
+			add(loadingImage);
+
+			officialText = new FlxSprite(57, 312).loadGraphic(Paths.image('desktop/gallery/officialText'));
 			add(officialText);
 
-			fanmadeText = new FlxSprite(786, 323).loadGraphic(Paths.image('desktop/gallery/fanmadeText'));
+			fanmadeText = new FlxSprite(469, 314).loadGraphic(Paths.image('desktop/gallery/fanmadeText'));
 			add(fanmadeText);
+
+			loadingText = new FlxSprite(906, 312).loadGraphic(Paths.image('desktop/gallery/loadingText'));
+			add(loadingText);
 
 			border = new FlxSprite().loadGraphic(Paths.image('desktop/gallery/galleryBorder'));
 			add(border);
@@ -282,7 +445,7 @@ class GallerySubstate extends MusicBeatSubstate
 			xText = new FlxSprite(18, 17).loadGraphic(Paths.image('desktop/gallery/xText'));
 			add(xText);
 			
-			galleryText = new FlxSprite(543, 8).loadGraphic(Paths.image('desktop/gallery/galleryText'));
+			galleryText = new FlxSprite(541, 6).loadGraphic(Paths.image('desktop/gallery/galleryText'));
 			add(galleryText);
 
 			sumOfficialText = new FlxSprite(518, 77).loadGraphic(Paths.image('desktop/gallery/sumofficialText'));
@@ -292,6 +455,10 @@ class GallerySubstate extends MusicBeatSubstate
 			sumFanMadeText = new FlxSprite(518, 77).loadGraphic(Paths.image('desktop/gallery/sumfanmadeText'));
 			add(sumFanMadeText);
 			sumFanMadeText.alpha = 0;
+
+			sumLoadingText = new FlxSprite(508, 77).loadGraphic(Paths.image('desktop/gallery/sumloadingText'));
+			add(sumLoadingText);
+			sumLoadingText.alpha = 0;
 
 			twitterButton = new FlxSprite(1136, 605).loadGraphic(Paths.image('desktop/gallery/twitterLogo'));
 			//add(twitterButton);
@@ -305,23 +472,25 @@ class GallerySubstate extends MusicBeatSubstate
 		for (i in 0...selectedGallery.length) {
 			var spr:FlxSprite = selectedGallery.members[i];
 			var image:FlxSprite = selectedPictures.members[i];
-			var moduloed:Int = i % 2;
-			switch (moduloed) {
-				case 0:
-					spr.x = 21;
-				case 1:
-					spr.x = 651;
-			}
-			spr.y = (Math.floor(i / 2) * 386) + 113;
-			image.setPosition(spr.x + 15, spr.y + 13);
+			var moduloed:Int = i % 4;
+			spr.x = 13 + (314 * moduloed);
+			spr.y = (Math.floor(i / 4) * 202) + 107;
+			image.setPosition(spr.x + 9, spr.y + 9);
 			spr.y += FlxG.height;
 			image.y += FlxG.height;
+			if (selectedMenu == 'loading') {
+				var spr:FlxSprite = selectedGallery.members[selectedGallery.length - 1];
+				var image:FlxSprite = selectedPictures.members[selectedGallery.length - 1];
+				spr.setPosition(479, 5000);
+				image.setPosition(spr.x + 9, spr.y + 9);
+			}
 		}
 	}
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
 	if (isExist) {
+			
 			FlxG.watch.addQuick("CAT: ", inCat);
 			FlxG.watch.addQuick("y: ", FlxG.mouse.y);
 			if (inCat == 0) {
@@ -341,12 +510,20 @@ class GallerySubstate extends MusicBeatSubstate
 					fanmadeText.color = FlxColor.fromHSL(fanmadeText.color.hue, fanmadeText.color.saturation, 0.7, 1);
 				}
 
+				if (FlxG.mouse.overlaps(loadingImage)) {
+					loadingImage.color = FlxColor.fromHSL(loadingImage.color.hue, loadingImage.color.saturation, 1, 1);
+					loadingText.color = FlxColor.fromHSL(loadingText.color.hue, loadingText.color.saturation, 1, 1);
+				} else {
+					loadingImage.color = FlxColor.fromHSL(loadingImage.color.hue, loadingImage.color.saturation, 0.7, 1);
+					loadingText.color = FlxColor.fromHSL(loadingText.color.hue, loadingText.color.saturation, 0.7, 1);
+				}
+
 				if (FlxG.mouse.overlaps(xText)) {
 					xText.color = FlxColor.fromHSL(officialImage.color.hue, officialImage.color.saturation, 1, 1);
 				} else {
 					xText.color = FlxColor.fromHSL(officialImage.color.hue, officialImage.color.saturation, 0.7, 1);
 				}
-				if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(officialImage) || FlxG.mouse.justPressed && FlxG.mouse.overlaps(fanmadeImage)) {
+				if (FlxG.mouse.justPressed && FlxG.mouse.overlaps(officialImage) || FlxG.mouse.justPressed && FlxG.mouse.overlaps(fanmadeImage) || FlxG.mouse.justPressed && FlxG.mouse.overlaps(loadingImage)) {
 					if (FlxG.mouse.overlaps(officialImage))	{
 						selectedGallery = officialGallery;
 						selectedPictures = officialPictures;
@@ -364,13 +541,26 @@ class GallerySubstate extends MusicBeatSubstate
 						captionColors = fanMadeCaptionColors;
 						selectedImageLocations = fanmadeImageLocations;
 						selectedMenu = 'fanmade';
+						
+					}
+					if (FlxG.mouse.overlaps(loadingImage)) {
+						selectedGallery = loadingGallery;
+						selectedPictures = loadingPictures;
+						selectedText = sumLoadingText;
+						captions = loadingCaptions;
+						captionColors = loadingCaptionColors;
+						selectedImageLocations = loadingImageLocations;
+						selectedMenu = 'loading';
+						
 					}
 					resetPositions();
 					inCat = 99;
 					isExist = false;
 					FlxTween.tween(officialImage, {alpha: 0}, 0.6, {});
 					FlxTween.tween(fanmadeImage, {alpha: 0}, 0.6, {});
+					FlxTween.tween(loadingImage, {alpha: 0}, 0.6, {});
 					FlxTween.tween(officialText, {y: officialText.y + FlxG.height}, 1, {ease: FlxEase.cubeIn});
+					FlxTween.tween(loadingText, {y: officialText.y + FlxG.height}, 1, {ease: FlxEase.cubeIn});
 					FlxTween.tween(fanmadeText, {y: fanmadeText.y + FlxG.height}, 1, {ease: FlxEase.cubeIn, onComplete: function (twn:FlxTween) {
 						for (i in 0...selectedGallery.length) {
 							selectedGallery.members[i].visible = true;
@@ -382,6 +572,8 @@ class GallerySubstate extends MusicBeatSubstate
 								fanmadeImage.color = FlxColor.fromHSL(officialImage.color.hue, officialImage.color.saturation, 0.7, 1);
 								officialText.color = FlxColor.fromHSL(officialText.color.hue, officialText.color.saturation, 0.7, 1);
 								fanmadeText.color = FlxColor.fromHSL(fanmadeText.color.hue, fanmadeText.color.saturation, 0.7, 1);
+								loadingText.color = FlxColor.fromHSL(officialText.color.hue, officialText.color.saturation, 0.7, 1);
+								loadingImage.color = FlxColor.fromHSL(officialImage.color.hue, officialImage.color.saturation, 0.7, 1);
 								isExist = true;
 							},});
 							FlxTween.tween(selectedPictures.members[i], {y: selectedPictures.members[i].y - FlxG.height}, 1, {ease: FlxEase.cubeOut});
@@ -394,6 +586,8 @@ class GallerySubstate extends MusicBeatSubstate
 					officialText.visible = false;
 					officialImage.visible = false;
 					fanmadeImage.visible = false;
+					loadingText.visible = false;
+					loadingImage.visible = false;
 					border.visible = false;
 					galleryText.visible = false;
 					bb.visible = false;
@@ -427,8 +621,10 @@ class GallerySubstate extends MusicBeatSubstate
 							FlxTween.tween(selectedGallery.members[i], {y: selectedGallery.members[i].y + FlxG.height}, 1, {ease: FlxEase.cubeOut, onComplete: function (twn:FlxTween) {
 								FlxTween.tween(selectedText, {alpha: 0}, 1, {ease: FlxEase.cubeOut});
 								
+								FlxTween.tween(loadingImage, {alpha: 1}, 0.6, {});
 								FlxTween.tween(officialImage, {alpha: 1}, 0.6, {});
 								FlxTween.tween(fanmadeImage, {alpha: 1}, 0.6, {});
+								FlxTween.tween(loadingText, {y: officialText.y - FlxG.height}, 1, {ease: FlxEase.cubeOut});
 								FlxTween.tween(officialText, {y: officialText.y - FlxG.height}, 1, {ease: FlxEase.cubeOut});
 								FlxTween.tween(fanmadeText, {y: fanmadeText.y - FlxG.height}, 1, {ease: FlxEase.cubeOut, onComplete: function (twn:FlxTween) {
 									inCat = 0;
@@ -436,6 +632,7 @@ class GallerySubstate extends MusicBeatSubstate
 									isExist = true;
 									xText = new FlxSprite(18, 17).loadGraphic(Paths.image('desktop/gallery/xText'));
 									add(xText);
+									resetPositions();
 								},});
 							},});
 							FlxTween.tween(selectedPictures.members[i], {y: selectedPictures.members[i].y + FlxG.height}, 1, {ease: FlxEase.cubeOut});
@@ -443,23 +640,46 @@ class GallerySubstate extends MusicBeatSubstate
 					}
 					
 				}
-				if (selectedGallery.members[selectedGallery.length - 1].y >= 347 && FlxG.mouse.wheel < 0) {
+				var thingyToUse = selectedGallery.length - 1;
+				if (selectedMenu == 'loading')
+					thingyToUse = selectedGallery.length - 2;
+				if (selectedGallery.members[thingyToUse].y >= 467 && FlxG.mouse.wheel < 0) {
 					for (i in selectedGallery) {
 						i.y += FlxG.mouse.wheel * 36;
+						
+					}
+				} else if (selectedGallery.members[thingyToUse].y <= 467 && FlxG.mouse.wheel < 0) {
+					if (bottomingCounter >= 250) {
+						for (i in selectedGallery) {
+							i.y += FlxG.mouse.wheel * 36;
+						}
+					} else {
+						bottomingCounter++;
 					}
 				}
-				if (selectedGallery.members[0].y <= 113 && FlxG.mouse.wheel > 0) {
+				if (selectedGallery.members[0].y < 107 && FlxG.mouse.wheel > 0) {
+					bottomingCounter = 0;
 					for (i in selectedGallery) {
 						i.y += FlxG.mouse.wheel * 36;
+						
+					}
+					if (selectedGallery.members[0].y > 107) {
+						while (selectedGallery.members[0].y < 107) {
+							for (i in selectedGallery)
+								i.y++;
+						}
 					}
 				}
 				if (FlxG.mouse.wheel != 0) {
 					for (i in 0...selectedGallery.length) {
-						selectedPictures.members[i].x = selectedGallery.members[i].x + 15;
-						selectedPictures.members[i].y = selectedGallery.members[i].y + 13;
+						selectedPictures.members[i].x = selectedGallery.members[i].x + 9;
+						selectedPictures.members[i].y = selectedGallery.members[i].y + 9;
 						
 					}
 				}
+				if (bottomingCounter >= 100) {
+					
+				} 
 				for (i in 0...selectedGallery.length) {
 					if (FlxG.mouse.overlaps(selectedGallery.members[i]) && FlxG.mouse.y > 93) {
 						selectedGallery.members[i].color = FlxColor.fromHSL(selectedGallery.members[i].color.hue, selectedGallery.members[i].color.saturation, 0.5, 1);
@@ -469,7 +689,8 @@ class GallerySubstate extends MusicBeatSubstate
 							selectedPicture = selectedPictures.members[i].clone();
 							selectedPicture.origin.set(0, 0);
 							selectedPicture.setPosition(selectedPictures.members[i].x, selectedPictures.members[i].y);
-							selectedPicture.scale.set(0.45, 0.45);
+							selectedPicture.setGraphicSize(292, 165);
+							selectedPicture.updateHitbox();
 							add(selectedPicture);
 							previousPosition = new FlxPoint(selectedPictures.members[i].x, selectedPictures.members[i].y);
 							selectedLocation = selectedImageLocations[i];
@@ -483,9 +704,18 @@ class GallerySubstate extends MusicBeatSubstate
 							caption.setFormat(Paths.font('PUSAB.otf'), 16, captionColors[i], CENTER);
 							add(caption);
 							caption.visible = false;
-
 							
-							FlxTween.tween(selectedPicture.scale, {x: 1, y: 1}, 0.6, {ease: FlxEase.cubeOut});
+							var wompValue:Int = 0;
+							FlxTween.num(selectedPicture.width, 1280, 0.6, {ease: FlxEase.cubeOut}, function (v:Float) {
+								wompValue = Std.int(v);
+							
+							});
+							FlxTween.num(selectedPicture.height, 720, 0.6, {ease: FlxEase.cubeOut}, function (v:Float) {
+								selectedPicture.setGraphicSize(wompValue, Std.int(v));
+								selectedPicture.updateHitbox();
+							});
+
+							//FlxTween.tween(selectedPicture.scale, {x: 1, y: 1}, 0.6, {ease: FlxEase.cubeOut});
 							FlxTween.tween(selectedPicture, {x: 0, y: 0}, 0.6, {ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) {
 								captionBG.visible = true;
 								caption.visible = true;
@@ -515,8 +745,20 @@ class GallerySubstate extends MusicBeatSubstate
 									add(twitterButton);
 									hasTwitter = true;
 								}
-								else {
+								else if (selectedMenu == 'loading' && twitterLoadingLinks[i] != '') {
+									selectedLink = twitterLoadingLinks[i];
+									add(twitterButton);
+									hasTwitter = true;
+								} else {
 									hasTwitter = false;
+								}
+
+								
+
+								if (selectedImageLocations[i] == 'bitmaps/bitmaps/bitmaps/bitmaps/bitmaps/bitmaps/bitmaps' && !FlxG.save.data.fol) {
+									achievementArray.push('Unlocked a new folder skin for &finding a secret&');
+									FlxG.save.data.fol = true;
+									updateBackground();
 								}
 							},});
 						}
@@ -534,6 +776,7 @@ class GallerySubstate extends MusicBeatSubstate
 				}
 
 				if (selectedUnlocked) {
+					
 					if (FlxG.mouse.overlaps(wallpaperButton)) {
 						wallpaperButton.alpha = 1;
 						if (FlxG.mouse.justPressed) {
@@ -572,7 +815,15 @@ class GallerySubstate extends MusicBeatSubstate
 					remove(twitterButton);
 					if (selectedUnlocked)
 						remove(wallpaperButton);
-					FlxTween.tween(selectedPicture.scale, {x: 0.45, y: 0.45}, 0.6, {ease: FlxEase.cubeOut});
+					var wompValue:Int;
+					FlxTween.num(selectedPicture.width, 292, 0.6, {ease: FlxEase.cubeOut}, function (v:Float) {
+						wompValue = Std.int(v);
+					});
+					FlxTween.num(selectedPicture.height, 165, 0.6, {ease: FlxEase.cubeOut}, function (v:Float) {
+						selectedPicture.setGraphicSize(wompValue, Std.int(v));
+						selectedPicture.updateHitbox();
+					});
+					//FlxTween.tween(selectedPicture.scale, {x: 0.23, y: 0.23}, 0.6, {ease: FlxEase.cubeOut});
 					FlxTween.tween(selectedPicture, {x: previousPosition.x, y: previousPosition.y}, 0.6, {ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) {
 						inCat = 1;
 						remove(selectedPicture);

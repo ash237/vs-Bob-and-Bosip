@@ -16,11 +16,14 @@ class AnimationDebug extends FlxState
 {
 	var bf:Boyfriend;
 	var dad:Character;
+	var dad2:Character;
 	var char:Character;
 	var textAnim:FlxText;
 	var dumbTexts:FlxTypedGroup<FlxText>;
 	var animList:Array<String> = [];
+	var dad2animList:Array<String> = [];
 	var curAnim:Int = 0;
+	var curDad2Anim:Int = 0;
 	var isDad:Bool = true;
 	var daAnim:String = 'spooky';
 	var camFollow:FlxObject;
@@ -57,6 +60,10 @@ class AnimationDebug extends FlxState
 			dad.debugMode = true;
 			add(dad);
 
+			dad2 = new Character(-490, 200, 'cerberus-ex');
+			dad2.debugMode = true;
+			add(dad2);
+
 			char = dad;
 			dad.flipX = false;
 			dadBG.flipX = false;
@@ -89,6 +96,10 @@ class AnimationDebug extends FlxState
 		FlxG.camera.follow(camFollow);
 
 		super.create();
+		for (anim => offsets in dad2.animOffsets)
+		{
+			dad2animList.push(anim);
+		}
 	}
 
 	function genBoyOffsets(pushList:Bool = true):Void
@@ -107,6 +118,20 @@ class AnimationDebug extends FlxState
 
 			daLoop++;
 		}
+
+		var text:FlxText = new FlxText(10, 20 + (18 * daLoop), 0, "x: " + dad.x + "y: " + dad.y, 15);
+		text.scrollFactor.set();
+		text.color = FlxColor.BLUE;
+		dumbTexts.add(text);
+
+		daLoop++;
+
+		var text:FlxText = new FlxText(10, 20 + (18 * daLoop), 0, "cerberus frame: " + dad2.animation.curAnim.curFrame, 15);
+		text.scrollFactor.set();
+		text.color = FlxColor.BLUE;
+		dumbTexts.add(text);
+
+		daLoop++;
 	}
 
 	function updateTexts():Void
@@ -121,7 +146,36 @@ class AnimationDebug extends FlxState
 	override function update(elapsed:Float)
 	{
 		textAnim.text = char.animation.curAnim.name;
+		if (FlxG.keys.justPressed.V) {
+			dad.setPosition(-280, 0);
+			updateTexts();
+			genBoyOffsets(false);
+		}
 
+
+		if (FlxG.keys.justPressed.COMMA) {
+			curDad2Anim++;
+			if (curDad2Anim >= dad2animList.length)
+				curDad2Anim = 0;
+			dad2.playAnim(dad2animList[curDad2Anim]);
+			updateTexts();
+			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.PERIOD) {
+			dad2.animation.pause();
+			dad2.animation.curAnim.curFrame--;
+			updateTexts();
+			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.SLASH) {
+			dad2.animation.pause();
+			dad2.animation.curAnim.curFrame++;
+			updateTexts();
+			genBoyOffsets(false);
+		}
+
+		
+			
 		if (FlxG.keys.justPressed.E)
 			FlxG.camera.zoom += 0.25;
 		if (FlxG.keys.justPressed.Q)
@@ -205,6 +259,27 @@ class AnimationDebug extends FlxState
 			updateTexts();
 			genBoyOffsets(false);
 			char.playAnim(animList[curAnim]);
+		}
+
+		if (FlxG.keys.justPressed.B) {
+			dad.x -= 1 * multiplier;
+			updateTexts();
+			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.N) {
+			dad.y -= 1 * multiplier;
+			updateTexts();
+			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.M) {
+			dad.x += 1 * multiplier;
+			updateTexts();
+			genBoyOffsets(false);
+		}
+		if (FlxG.keys.justPressed.H) {
+			dad.y += 1 * multiplier;
+			updateTexts();
+			genBoyOffsets(false);
 		}
 
 		super.update(elapsed);

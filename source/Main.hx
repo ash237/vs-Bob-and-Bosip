@@ -101,7 +101,9 @@ class Main extends Sprite
 		webmHandle.source(ourSource);
 		webmHandle.makePlayer();
 		webmHandle.webm.name = str1;
+		#if !desktop
 		WebmPlayer.SKIP_STEP_LIMIT = 90;
+		#end
 		addChild(webmHandle.webm);
 		GlobalVideo.setWebm(webmHandle);
 		#end

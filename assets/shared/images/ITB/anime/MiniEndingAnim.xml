@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MiniEndingAnim.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mini-ending0000" x="0" y="0" width="365" height="627" frameX="0" frameY="0" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0001" x="365" y="0" width="365" height="627" frameX="0" frameY="0" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0002" x="730" y="0" width="365" height="626" frameX="0" frameY="-1" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0003" x="1095" y="0" width="365" height="626" frameX="0" frameY="-1" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0004" x="1460" y="0" width="365" height="625" frameX="0" frameY="-3" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0005" x="1825" y="0" width="365" height="625" frameX="0" frameY="-3" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0006" x="2190" y="0" width="366" height="620" frameX="0" frameY="-7" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0007" x="2556" y="0" width="366" height="620" frameX="0" frameY="-7" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0008" x="2922" y="0" width="371" height="619" frameX="0" frameY="-8" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0009" x="3293" y="0" width="371" height="619" frameX="0" frameY="-8" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0010" x="3664" y="0" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0011" x="0" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0012" x="372" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0013" x="744" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0014" x="1116" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0015" x="1488" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0016" x="1860" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0017" x="2232" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0018" x="2604" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0019" x="2976" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0020" x="3348" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0021" x="3720" y="627" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0022" x="0" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0023" x="372" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0024" x="744" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0025" x="1116" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0026" x="1488" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0027" x="1860" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0028" x="2232" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0029" x="2604" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0030" x="2976" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0031" x="3348" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0032" x="3720" y="1245" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0033" x="0" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0034" x="372" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0035" x="744" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0036" x="1116" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0037" x="1488" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0038" x="1860" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0039" x="2232" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0040" x="2604" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0041" x="2976" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0042" x="3348" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0043" x="3720" y="1863" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0044" x="0" y="2481" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0045" x="372" y="2481" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0046" x="744" y="2481" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+	<SubTexture name="Mini-ending0047" x="1116" y="2481" width="372" height="618" frameX="0" frameY="-9" frameWidth="372" frameHeight="628"/>
+</TextureAtlas>
