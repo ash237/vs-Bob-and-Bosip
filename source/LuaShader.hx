@@ -1,4 +1,4 @@
-/*import flixel.system.FlxAssets.FlxShader;
+import flixel.system.FlxAssets.FlxShader;
 
 class LuaShader extends FlxShader
 {
@@ -69,4 +69,4 @@ class LuaShader extends FlxShader
         iResolution
         super();
     }
-}*/
+}
