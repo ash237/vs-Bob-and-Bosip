@@ -35,6 +35,7 @@ jobs:
           haxelib git hxCodec https://github.com/SPLCoding/hxCodec-but-it-works-xd.git
           haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+          haxelib git extension-webm https://github.com/mcagabe19-stuff/extension-webm.git
         shell: cmd
 
       - name: Setup Lime
