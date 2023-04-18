@@ -250,7 +250,7 @@ class DesktopState extends MusicBeatState
 
 				if (Highscore.getMissesString(songHighscore, 2) != '0')
 					goldFolderCheck = false;
-				if (FileSystem.exists(Paths.instEXcheck(data[0]))) {
+			//	if (FileSystem.exists(Paths.instEXcheck(data[0]))) {
 					if (Highscore.getMissesString(songHighscore, 3) != '0')
 						goldFolderCheck = false;
 				}
