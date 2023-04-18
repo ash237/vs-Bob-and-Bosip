@@ -122,7 +122,7 @@ class BootupState extends MusicBeatState
 					FlxG.sound.cache(Paths.instEX(songHighscore));
 				}
 			}
-		}
+//	}
 		
 		loadedStuff = true;
 
