@@ -53,10 +53,7 @@
 		<library name="tutorial" preload="true" />
 		<library name="week1"    preload="true" />
 		<library name="week2"    preload="true" />
-		<library name="week3"    preload="true" />
 		<library name="week4"    preload="true" />
-		<library name="week5"    preload="true" />
-		<library name="week6"    preload="true" />
     <library name="extra"    preload="true" />
 
   </section>
@@ -67,10 +64,7 @@
 		<library name="tutorial" preload="false" />
 		<library name="week1"    preload="false" />
 		<library name="week2"    preload="false" />
-		<library name="week3"    preload="false" />
 		<library name="week4"    preload="false" />
-		<library name="week5"    preload="false" />
-		<library name="week6"    preload="false" />
     <library name="extra"    preload="false" />
 	</section>
 	
