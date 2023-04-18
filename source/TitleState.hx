@@ -57,6 +57,10 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+	  if mobile
+		FlxG.android.preventDefaultKeys = [BACK];
+		#end
+
 		super.create();
 		new FlxTimer().start(1, function(tmr:FlxTimer)
 		{
