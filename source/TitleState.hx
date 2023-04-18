@@ -505,7 +505,7 @@ class TitleState extends MusicBeatState
 							addMoreText('Newgrounds');
 							ngSpr.visible = true;
 						}
-					// credTextShit.text += '\nNewgrounds';
+					// credTextShit.text += '\n';
 					case 8:
 						deleteCoolText();
 						ngSpr.visible = false;
