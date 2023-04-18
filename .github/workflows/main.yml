@@ -10,50 +10,6 @@ on: #[push, pull_request]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  buildWindows:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@main
-
-      - name: Setup Haxe
-        uses: krdlab/setup-haxe@master
-        with:
-          haxe-version: 4.2.5
-
-      - name: Install Haxelib
-        run: |
-          haxelib install lime 7.9.0
-          haxelib install openfl 9.1.0
-          haxelib install flixel 4.11.0
-          haxelib --never run lime setup
-          haxelib install flixel-ui
-          haxelib install flixel-addons 2.11.0
-          haxelib install polymod
-          haxelib install hscript
-          haxelib install hxcpp-debug-server
-          haxelib git hxCodec https://github.com/SPLCoding/hxCodec-but-it-works-xd.git
-          haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit.git
-          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
-          haxelib git extension-webm https://github.com/mcagabe19-stuff/extension-webm.git
-        shell: cmd
-
-      - name: Setup Lime
-        run: |
-          haxelib run lime setup -alias -y
-          haxelib set lime 7.9.0
-          haxelib set openfl 9.1.0
-          haxelib set flixel 4.11.0
-          haxelib set flixel-addons 2.11.0
-          # haxelib list
-      - name: Compile
-        run: haxelib run lime build windows -Dnightly
-
-      - name: Publish Artifact
-        uses: actions/upload-artifact@main
-        with:
-          name: windowsBuild
-          path: 'export/release/windows/bin'
   buildAndroid:
     name: buildAndroid
     runs-on: ubuntu-latest
