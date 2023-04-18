@@ -29,7 +29,7 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import io.newgrounds.NG;
+//import io.newgrounds.NG;
 import flixel.util.FlxSpriteUtil;
 import lime.app.Application;
 import openfl.Assets;
