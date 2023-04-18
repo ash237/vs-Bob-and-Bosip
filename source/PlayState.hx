@@ -2598,6 +2598,9 @@ class PlayState extends MusicBeatState
 
 	function startCountdown():Void
 	{
+	#if mobile
+      mobileControls.visible = true;
+      #end
 		inCutscene = false;
 
 		generateStaticArrows(0);
