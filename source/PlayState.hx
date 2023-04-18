@@ -2356,6 +2356,11 @@ class PlayState extends MusicBeatState
 		if (loadRep)
 			replayTxt.cameras = [camHUD];
 
+#if mobile
+		addMobileControls(false);
+    mobileControls.visible = false;
+		#end
+		
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
 		// UI_camera.zoom = 1;
@@ -3596,7 +3601,7 @@ class PlayState extends MusicBeatState
 		if (!FlxG.save.data.accuracyDisplay)
 			scoreTxt.text = "Score: " + songScore;
 
-		if (FlxG.keys.justPressed.ENTER && startedCountdown && canPause)
+		if (FlxG.keys.justPressed.ENTER #if mobile || FlxG.android.justReleased.BACK && startedCountdown && canPause)
 		{
 			persistentUpdate = false;
 			persistentDraw = true;
@@ -5655,6 +5660,7 @@ class PlayState extends MusicBeatState
 	
 	function endSong():Void
 	{
+
 		if (useVideo && !FlxG.save.data.lowDetail)
 		{
 			BackgroundVideo.get().stop();
@@ -5682,7 +5688,11 @@ class PlayState extends MusicBeatState
 			luaModchart = null;
 		}
 		#end
-
+		
+		#if mobile
+        mobileControls.visible = false;
+    #end
+    
 		canPause = false;
 		FlxG.sound.music.volume = 0;
 		vocals.volume = 0;
@@ -6718,7 +6728,7 @@ class PlayState extends MusicBeatState
 		function shakeCam(magnitude:Float)
 			{
 				FlxG.camera.shake(magnitude);
-				camHUD.shake(magnitude);
+				.shake(magnitude);
 			}
 	function back(characters:String):Void {
 		switch(characters)
