@@ -6728,8 +6728,9 @@ class PlayState extends MusicBeatState
 		function shakeCam(magnitude:Float)
 			{
 				FlxG.camera.shake(magnitude);
-				.shake(magnitude);
+				camHUD.shake(magnitude);
 			}
+
 	function back(characters:String):Void {
 		switch(characters)
 			{
