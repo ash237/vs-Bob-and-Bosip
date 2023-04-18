@@ -18,7 +18,7 @@ import flixel.addons.transition.FlxTransitionableState;
 import openfl.Lib;
 
 #if cpp
-//import webm.WebmPlayer;
+import webm.WebmPlayer;
 #end
 
 using StringTools;
