@@ -40,6 +40,7 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
+          haxelib install openfl-webm 0.0.4
           haxelib install hxcpp
           haxelib install lime 7.9.0
           haxelib install openfl 9.1.0
@@ -52,7 +53,7 @@ jobs:
           haxelib install polymod
           haxelib install hxcpp-debug-server
           haxelib list
-          haxelib install openfl-webm 0.0.4
+          
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
 
