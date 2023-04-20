@@ -18,9 +18,7 @@ class MobileControls extends FlxSpriteGroup
 	public var virtualPad:FlxVirtualPad;
 	public var hitbox:FlxHitbox;
 
-	//public var shutYoAss = FlxHitbox.buttonDodge;
-
-	public function new(usesDodge:Bool = false)
+	public function new()
 	{
 		super();
 
@@ -39,11 +37,7 @@ class MobileControls extends FlxSpriteGroup
 				virtualPad = new FlxVirtualPad(BOTH_FULL, NONE);
 				add(virtualPad);
 			case 'Hitbox':
-			if(usesDodge){
-				hitbox = new FlxHitbox(SPACE);
-			}else{
-			    hitbox = new FlxHitbox(DEFAULT);
-			}
+				hitbox = new FlxHitbox();
 				add(hitbox);
 			case 'Keyboard': // do nothing
 		}
@@ -64,14 +58,14 @@ class MobileControls extends FlxSpriteGroup
 	{
 		if (FlxG.save.data.controlsMode == null)
 		{
-			FlxG.save.data.controlsMode = 'Hitbox';
+			FlxG.save.data.controlsMode = 'Pad-Right';
 			FlxG.save.flush();
 		}
 
 		return FlxG.save.data.controlsMode;
 	}
 
-	private static function set_mode(mode:String = 'Hitbox'):String
+	private static function set_mode(mode:String = 'Pad-Right'):String
 	{
 		FlxG.save.data.controlsMode = mode;
 		FlxG.save.flush();
