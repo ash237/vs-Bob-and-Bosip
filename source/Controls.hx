@@ -302,7 +302,7 @@ class Controls extends FlxActionSet
 		return getDialogueName(getActionFromControl(Control.createByName(token.toUpperCase())));
 	}
 
-#	#if mobile
+	#if mobile
 	public var trackedInputsUI:Array<FlxActionInput> = [];
 	public var trackedInputsNOTES:Array<FlxActionInput> = [];
 
