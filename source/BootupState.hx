@@ -36,7 +36,7 @@ import openfl.Assets;
 import flash.geom.Point;
 import lime.app.Application;
 
-#if windows
+#if sys
 import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
