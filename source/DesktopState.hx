@@ -36,7 +36,7 @@ import openfl.Assets;
 import flash.geom.Point;
 import D;
 
-#if windows
+#if sys
 import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
