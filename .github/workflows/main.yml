@@ -39,6 +39,7 @@ jobs:
 
       - name: Install Haxelib
         run: |
+          haxelib install openfl-webm
           haxelib setup ~/haxelib
           haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm.git
           haxelib install hxcpp
