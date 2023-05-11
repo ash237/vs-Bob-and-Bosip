@@ -40,7 +40,7 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib git extension-webm https://github.com/mcagabe19-stuff/extension-webm.git
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm.git
           haxelib install hxcpp
           haxelib install lime 7.9.0
           haxelib install openfl 9.1.0
