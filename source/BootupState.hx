@@ -29,14 +29,14 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import io.newgrounds.NG;
+//import io.newgrounds.NG;
 import flixel.util.FlxSpriteUtil;
 import lime.app.Application;
 import openfl.Assets;
 import flash.geom.Point;
 import lime.app.Application;
 
-#if windows
+#if sys
 import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
@@ -122,7 +122,7 @@ class BootupState extends MusicBeatState
 					FlxG.sound.cache(Paths.instEX(songHighscore));
 				}
 			}
-		}
+	}
 		
 		loadedStuff = true;
 

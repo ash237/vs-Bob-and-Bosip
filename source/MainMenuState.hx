@@ -20,7 +20,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.math.FlxRandom;
 import flixel.addons.transition.FlxTransitionableState;
-import io.newgrounds.NG;
+//import io.newgrounds.NG;
 import lime.app.Application;
 import flixel.math.FlxPoint;
 import flixel.math.FlxMath;

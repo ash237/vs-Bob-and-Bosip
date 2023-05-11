@@ -18,7 +18,7 @@ import openfl.geom.Point;
 import LoadingState.LoadingsState;
 import flixel.addons.transition.FlxTransitionableState;
 
-#if windows
+#if sys
 import Sys;
 import sys.FileSystem;
 #end

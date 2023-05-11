@@ -29,14 +29,14 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import io.newgrounds.NG;
+//import io.newgrounds.NG;
 import flixel.util.FlxSpriteUtil;
 import lime.app.Application;
 import openfl.Assets;
 import flash.geom.Point;
 import D;
 
-#if windows
+#if sys
 import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
@@ -250,7 +250,7 @@ class DesktopState extends MusicBeatState
 
 				if (Highscore.getMissesString(songHighscore, 2) != '0')
 					goldFolderCheck = false;
-				if (FileSystem.exists(Paths.instEXcheck(data[0]))) {
+			  if (FileSystem.exists(Paths.instEXcheck(data[0]))) {
 					if (Highscore.getMissesString(songHighscore, 3) != '0')
 						goldFolderCheck = false;
 				}

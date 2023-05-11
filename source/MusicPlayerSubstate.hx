@@ -16,7 +16,7 @@ import flixel.math.FlxMath;
 import openfl.geom.Point;
 import flixel.system.FlxSound;
 
-#if windows
+#if sys
 import Discord.DiscordClient;
 import Sys;
 import sys.FileSystem;
